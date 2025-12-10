@@ -18604,3 +18604,3517 @@ MONSTER_NAMES
 
 #include "../content_specific_parameters.txt"
 #include "../customizations/common_user_customizations.txt"
+
+
+##
+## Missing Keys from en.txt (Added by Update Script)
+##
+
+English
+
+
+MULTIPLAYER
+多人游戏
+
+BALANCE_STABILITY
+平衡:稳定性
+
+OPENGL_VERSION_LOW_TITLE
+OpenGL 版本过低
+
+OPENGL_VERSION_LOW_TEXT
+'''此系统的 OpenGL 版本低于 2.0
+
+FreeOrion 启动时可能会崩溃。'''
+
+
+FLD_NEBULA_3
+[[FLD_NEBULA_1]]
+
+FLD_NEBULA_3_DESC
+[[FLD_NEBULA_1_DESC]]
+
+FLD_NANITE_SWARM
+纳米机器人群
+
+FLD_NANITE_SWARM_DESC
+一群古老的纳米机器人，它们附着并试图修复群内的船体。群内飞船的 [[metertype METER_STRUCTURE]] 每回合增加 [[value FLD_NANITE_SWARM_STRUCTURE_FLAT]]，平均分配给群内的飞船。
+
+FLD_METEOR_BLIZZARD
+流星暴雪
+
+FLD_METEOR_BLIZZARD_DESC
+异常自引力的流星聚集体。飞船在其中观测此现象时会产生 [[metertype METER_RESEARCH]]。
+
+FLD_VOID_RIFT
+虚空裂隙
+
+FLD_VOID_RIFT_DESC
+时空中的异常裂隙，使飞船 [[metertype METER_SPEED]] 降低 50%。
+
+WRONG_CLIENT_TYPE_AUTOTURN
+只有人类玩家可以设置自动回合。
+
+WRONG_CLIENT_TYPE_REVERT_ORDERS
+非玩家无法撤销指令。
+
+ERROR_NOT_ENOUGH_CONNECTED_HUMAN_PLAYERS
+已连接的人类帝国玩家不足。
+
+ERROR_TOO_MANY_UNCONNECTED_HUMAN_PLAYERS
+未连接的人类帝国玩家过多。
+
+ERROR_INCOMPATIBLE_VERSION
+服务器无法正确读取客户端消息，很可能是由于游戏版本不兼容。
+
+ERROR_CHECKSUM_MISMATCH
+服务器和客户端的内容校验和不一致。
+
+RULE_CHEAP_POLICIES
+廉价政策
+
+RULE_CHEAP_POLICIES_DESC
+采用政策花费 1 IP。
+
+RULE_FIRST_COMBAT_ROUND_IN_CLOSE_TARGETING_RANGE
+近距离瞄准战斗回合
+
+RULE_FIRST_COMBAT_ROUND_IN_CLOSE_TARGETING_RANGE_DESC
+近距离武器能够射击目标的首个战斗回合。
+
+RULE_AGGRESSIVE_SHIPS_COMBAT_VISIBLE
+激进飞船战斗可见
+
+RULE_AGGRESSIVE_SHIPS_COMBAT_VISIBLE_DESC
+设置为控制其星系的舰队中的飞船，无论其隐形和探测等级如何，在战斗开始时对所有帝国可见。
+
+RULE_SHIP_WEAPON_DAMAGE_FACTOR
+飞船武器伤害缩放
+
+RULE_SHIP_WEAPON_DAMAGE_FACTOR_DESC
+调整飞船主武器的伤害和护盾。同时也调整行星防御。
+
+RULE_FIGHTER_DAMAGE_FACTOR
+战机伤害缩放
+
+RULE_FIGHTER_DAMAGE_FACTOR_DESC
+调整战机的伤害。
+
+RULE_SINGULARITY_COST_FACTOR
+[[LRN_TRANSCEND]] 成本缩放
+
+RULE_SINGULARITY_COST_FACTOR_DESC
+调整 [[LRN_TRANSCEND]] 科技的成本。
+
+RULE_EXPERIMENTORS_SPAWN_BASE_TURN
+实验者生成基础回合
+
+RULE_EXPERIMENTORS_SPAWN_BASE_TURN_DESC
+实验者生成的最小回合数。受星系大小和 AI 侵略性影响。
+
+RULE_NESTS_ALWAYS_SPAWN_WILD
+巢穴总是生成野生怪兽
+
+RULE_NESTS_ALWAYS_SPAWN_WILD_DESC
+怪兽巢穴将总是生成野生怪兽，即使已建立前哨。
+
+RULE_WANDERING_MONSTERS_CAN_STOP_INSYSTEM
+游荡怪兽可停留在星系内
+
+RULE_WANDERING_MONSTERS_CAN_STOP_INSYSTEM_DESC
+游荡怪兽偶尔会停留在星系内。
+
+RULE_WILD_NEST_MONSTER_SPAWN_FACTOR
+野生巢穴怪兽生成因子
+
+RULE_WILD_NEST_MONSTER_SPAWN_FACTOR_DESC
+乘以巢穴生成野生怪兽的概率。
+
+RULE_DOMESTIC_NEST_MONSTER_SPAWN_FACTOR
+驯化巢穴怪兽生成因子
+
+RULE_DOMESTIC_NEST_MONSTER_SPAWN_FACTOR_DESC
+乘以巢穴生成驯化怪兽的概率。
+
+RULE_ALLOW_REPEATED_SPECIES
+允许重复种族
+
+RULE_ALLOW_REPEATED_SPECIES_DESC
+当玩家数量少于可玩种族时允许重复种族。当玩家数量多于可玩种族时，总是会有重复种族。
+
+RULE_ENSURE_HABITABLE_PLANET_HW_VICINITY
+保证母星附近有宜居行星
+
+RULE_ENSURE_HABITABLE_PLANET_HW_VICINITY_DESC
+保证母星附近至少有 1 个环境适宜或更好的行星。目前发生在原生或特殊放置之前。
+
+RULE_ALL_OBJECTS_VISIBLE
+所有物体可见
+
+RULE_ALL_OBJECTS_VISIBLE_DESC
+所有星系、行星、建筑、舰队、飞船和力场都可以被所有帝国以至少部分可见度探测到。
+
+RULE_ALL_SYSTEMS_VISIBLE
+所有星系可见
+
+RULE_ALL_SYSTEMS_VISIBLE_DESC
+所有星系位置对所有帝国已知。
+
+RULE_EXTRASOLAR_SHIP_DETECTION
+太阳系外飞船探测
+
+RULE_EXTRASOLAR_SHIP_DETECTION_DESC
+星系外的飞船提供探测。
+
+RULE_OVERRIDE_VIS_LEVEL
+隐形封锁者可见性
+
+RULE_OVERRIDE_VIS_LEVEL_DESC
+拥有被封锁舰队的帝国能够发现原本隐形的舰队和飞船的可见度等级。
+
+RULE_UNSEEN_STEALTHY_PLANETS_INVISIBLE
+不可见的隐形行星
+
+RULE_UNSEEN_STEALTHY_PLANETS_INVISIBLE_DESC
+'''<u>开启</u>: 隐形能力高于帝国探测强度的行星，除非该帝国之前已探测到该行星，否则仅凭在同一星系拥有物体无法探测到该行星。
+
+<u>关闭</u>: 隐形能力高于帝国探测强度的行星，如果该帝国在同一星系拥有另一个物体，则可以被该帝国探测到。'''
+
+
+RULE_BASIC_VIS_SYSTEM_INFO_SHOWN
+显示基本星系信息
+
+RULE_BASIC_VIS_SYSTEM_INFO_SHOWN_DESC
+'''<u>开启</u>: 帝国仅以基本可见度探测到的星系，其名称和恒星类型将被揭示。会导致 UI 问题，难以判断星系的星际航道是否已知。
+
+<u>关闭</u>: 从未以更高可见度探测到的基本可见度星系，其名称和恒星类型未知。'''
+
+
+RULE_HIDDEN_POLICIES
+隐藏帝国政策
+
+RULE_HIDDEN_POLICIES_DESC
+'''<u>开启</u>: 未与某帝国结盟的玩家不知道该帝国已采用或可用的政策。
+
+<u>关闭</u>: 所有玩家都知道所有其他帝国已采用和可用的政策。'''
+
+
+RULE_HIDDEN_TECHS_QUEUES_AVAILABILITIES
+隐藏帝国科技、队列和可用性
+
+RULE_HIDDEN_TECHS_QUEUES_AVAILABILITIES_DESC
+'''<u>开启</u>: 未与某帝国结盟的玩家不知道该帝国已研究的科技、队列以及部件、船体或建筑的可用性。
+
+<u>关闭</u>: 所有玩家都知道所有其他帝国已研究的科技、队列和可用性。'''
+
+
+RULE_BASELINE_PLANET_STABILITY
+行星稳定性基准
+
+RULE_BASELINE_PLANET_STABILITY_DESC
+行星 [[METER_HAPPINESS]] 的基准水平。
+
+RULE_BASELINE_SPECIES_EMPIRE_OPINION
+种族帝国评价基准
+
+RULE_BASELINE_SPECIES_EMPIRE_OPINION_DESC
+种族对帝国评价的基准水平。
+
+RULE_INVASION_OPINION_PENALTY_SCALING
+行星入侵种族评价缩放
+
+RULE_INVASION_OPINION_PENALTY_SCALING_DESC
+缩放最近入侵过拥有该种族行星的帝国的种族评价惩罚。
+
+RULE_SHIPS_LOST_DESTROYED_PENALTY_SCALING
+飞船损失或摧毁种族评价缩放
+
+RULE_SHIPS_LOST_DESTROYED_PENALTY_SCALING_DESC
+缩放帝国在战斗中损失或摧毁某中族飞船的种族评价惩罚。
+
+RULE_COLONIES_FOUNDED_BONUS_SCALING
+建立殖民地评价缩放
+
+RULE_COLONIES_FOUNDED_BONUS_SCALING_DESC
+缩放帝国建立拥有该种族殖民地的种族评价奖励。
+
+RULE_PROTECTION_FOCUS_STABILITY
+保护专注稳定性奖励
+
+RULE_PROTECTION_FOCUS_STABILITY_DESC
+来自保护专注的 [[METER_HAPPINESS]] 奖励。
+
+RULE_IMPERIAL_PALACE_INFLUENCE
+皇宫产生的影响力
+
+RULE_IMPERIAL_PALACE_INFLUENCE_DESC
+皇宫产生的 [[METER_INFLUENCE]]。
+
+RULE_GOOD_ENVIRONMENT_STABILITY
+良好环境稳定性修正
+
+RULE_GOOD_ENVIRONMENT_STABILITY_DESC
+良好环境的 [[METER_HAPPINESS]] 修正。
+
+RULE_ADEQUATE_ENVIRONMENT_STABILITY
+适宜环境稳定性修正
+
+RULE_ADEQUATE_ENVIRONMENT_STABILITY_DESC
+适宜环境的 [[METER_HAPPINESS]] 修正。
+
+RULE_POOR_ENVIRONMENT_STABILITY
+贫瘠环境稳定性修正
+
+RULE_POOR_ENVIRONMENT_STABILITY_DESC
+贫瘠环境的 [[METER_HAPPINESS]] 修正。
+
+RULE_HOSTILE_ENVIRONMENT_STABILITY
+恶劣/无法居住环境稳定性修正
+
+RULE_HOSTILE_ENVIRONMENT_STABILITY_DESC
+恶劣/无法居住环境的 [[METER_HAPPINESS]] 修正。
+
+RULE_TINY_SIZE_STABILITY
+微型行星稳定性修正
+
+RULE_TINY_SIZE_STABILITY_DESC
+微型行星的 [[METER_HAPPINESS]] 修正。
+
+RULE_SMALL_SIZE_STABILITY
+小型行星稳定性修正
+
+RULE_SMALL_SIZE_STABILITY_DESC
+小型行星的 [[METER_HAPPINESS]] 修正。
+
+RULE_MEDIUM_SIZE_STABILITY
+中型行星稳定性修正
+
+RULE_MEDIUM_SIZE_STABILITY_DESC
+中型行星的 [[METER_HAPPINESS]] 修正。
+
+RULE_LARGE_SIZE_STABILITY
+大型行星稳定性修正
+
+RULE_LARGE_SIZE_STABILITY_DESC
+大型行星的 [[METER_HAPPINESS]] 修正。
+
+RULE_HUGE_SIZE_STABILITY
+巨型行星稳定性修正
+
+RULE_HUGE_SIZE_STABILITY_DESC
+巨型行星的 [[METER_HAPPINESS]] 修正。
+
+RULE_GAS_GIANT_SIZE_STABILITY
+气态巨行星稳定性修正
+
+RULE_GAS_GIANT_SIZE_STABILITY_DESC
+气态巨行星的 [[METER_HAPPINESS]] 修正。
+
+RULE_MINIMUM_MONSTER_DISTANCE_CAPITAL
+怪兽距离首都最小距离
+
+RULE_MINIMUM_MONSTER_DISTANCE_CAPITAL_DESC
+怪兽生成位置距离首都的最小距离。
+
+RULE_CONCEDE_DESTROY_COLONIES
+废弃认输殖民地
+
+RULE_CONCEDE_DESTROY_COLONIES_DESC
+如果为真，认输帝国拥有的殖民地将被废弃。如果为假，飞船将被设置为无主。
+
+RULE_CONCEDE_DESTROY_BUILDINGS
+摧毁认输建筑
+
+RULE_CONCEDE_DESTROY_BUILDINGS_DESC
+如果为真，认输帝国拥有的建筑将被摧毁。如果为假，建筑将被设置为无主。
+
+RULE_CONCEDE_DESTROY_SHIPS
+摧毁认输飞船
+
+RULE_CONCEDE_DESTROY_SHIPS_DESC
+如果为真，认输帝国拥有的飞船将被摧毁。如果为假，飞船将被设置为无主。
+
+RULE_SHIP_PART_BASED_UPKEEP
+使用基于部件的维护费
+
+RULE_SHIP_PART_BASED_UPKEEP_DESC
+基于飞船部件而非飞船本身计算维护费。
+
+RULE_DIPLOMACY
+允许外交
+
+RULE_DIPLOMACY_DESC
+管理玩家之间的外交限制。默认情况下允许所有交互。
+
+RULE_DIPLOMACY_ALLOWED_FOR_ALL
+全部允许
+
+RULE_DIPLOMACY_FORBIDDEN_FOR_ALL
+全部禁止
+
+RULE_ANNEX_COST_OPINION_EXP_BASE
+吞并成本评价指数基数
+
+RULE_ANNEX_COST_OPINION_EXP_BASE_DESC
+决定吞并成本如何随种族帝国评价缩放的指数基数。
+
+RULE_ANNEX_COST_SCALING
+吞并成本人口缩放
+
+RULE_ANNEX_COST_SCALING_DESC
+吞并成本随行星人口缩放的因子。
+
+RULE_ANNEX_COST_STABILITY_EXP_BASE
+吞并成本稳定性指数基数
+
+RULE_ANNEX_COST_STABILITY_EXP_BASE_DESC
+决定吞并成本如何随行星稳定性缩放的指数基数。
+
+RULE_BUILDING_ANNEX_COST_SCALING
+吞并成本建筑缩放
+
+RULE_BUILDING_ANNEX_COST_SCALING_DESC
+吞并成本随建筑生产成本缩放的因子。
+
+RULE_ANNEX_COST_MINIMUM
+吞并成本最小值
+
+RULE_ANNEX_COST_MINIMUM_DESC
+吞并一个行星的最小成本。
+
+COMMAND_LINE_HELP_GENERAL_DESCRIPTION
+'''FreeOrion 是一款 4X 太空战略游戏。
+
+可以指定命令行开关和选项来调整程序的运行方式。
+
+这些选项已分组，可以通过运行二进制文件并传递 "-h" 或 "--help" 开关，后跟选项组名称来列出。
+
+例如，要输出网络相关选项：
+freeorion --help network
+
+选项可以使用缩写形式，如 "-h" 代替 "--help"。
+
+没有缩写形式的选项需要在其名称后传递一个参数来将该选项设置为传递的值，如：
+freeorion --network.discovery.port 123'''
+
+
+OPTIONS_DB_TESTING
+仅限 Linux。AI 将把日志输出到控制台而不是文件，用于测试目的。
+
+OPTIONS_DB_LOAD_OR_QUICKSTART
+在自动保存目录中搜索最新的多人游戏存档。如果找到则加载并启动，或者使用预定义选项和游戏规则快速开始新游戏。需要无主机模式且不限制最小连接玩家数，因为服务器将在没有连接玩家的情况下启动。
+
+OPTIONS_DB_GALAXY_MAP_STARFIELDS_SCALE
+设置星系周围星域的大小。
+
+OPTIONS_DB_UI_GALAXY_MAP_LOCK
+切换是否禁用星系地图的滚动和缩放。
+
+OPTIONS_DB_GALAXY_MAP_DETECTION_RANGE_FUTURE
+切换在显示舰队探测范围圈时，是否也显示所选舰队预期移动路径的预测未来回合探测范围。
+
+OPTIONS_DB_MP_CONN_HUMAN_MIN
+最小活跃人类玩家数量，低于此数量服务器将停止游戏。
+
+OPTIONS_DB_MP_UNCONN_HUMAN_MAX
+控制未被消灭帝国的玩家中，允许与服务器断开连接的最大数量，超过此数量服务器将停止游戏。如果为 0 则禁用，意味着服务器永远不会因为帝国玩家断开连接而停止游戏。
+
+OPTIONS_DB_COOKIES_EXPIRE
+Cookie 记录被视为过期的分钟数。
+
+OPTIONS_DB_PUBLISH_STATISTICS
+启用向玩家发送帝国统计数据。
+
+OPTIONS_DB_PUBLISH_SEED
+启用向玩家发送星系种子。
+
+OPTIONS_DB_FIRST_TURN_TIME
+UTC 格式的绝对时间点 "2019-01-20 11:59:59"。如果为空，首回合将在过期时间间隔后推进。
+
+OPTIONS_DB_TIMEOUT_INTERVAL
+自动回合推进之间的最大间隔（秒）。如果为 0，则禁用超时回合推进，只有当所有玩家都结束回合后才会推进回合。任何玩家赢得游戏后，自动回合推进也会被禁用。
+
+OPTIONS_DB_TIMEOUT_FIXED_INTERVAL
+无论玩家何时以及是否提交了回合指令，回合都在固定间隔后推进。
+
+OPTIONS_DB_CLIENT_MESSAGE_SIZE_MAX
+客户端消息大小限制（字节）。
+
+OPTIONS_DB_DROP_EMPIRE_READY
+加入正在进行的游戏时取消帝国的准备状态。
+
+OPTIONS_DB_TAKE_OVER_AI
+服务器选项，允许人类玩家接管 AI 帝国。
+
+OPTIONS_DB_ALLOW_OBSERVERS
+服务器选项，允许任何玩家作为观察者连接到游戏。
+
+OPTIONS_DB_LISTEN_FD
+服务器选项，选择预先打开的文件描述符以接受连接。适用于带有 xinetd 或 systemd 套接字激活的 Linux。默认禁用。
+
+OPTIONS_DB_PYTHON_ASYNCIO_INTERVAL
+调用 python asyncio 事件循环的间隔（秒），或 -1 以禁用它。默认禁用 asyncio 调用。
+
+OPTIONS_DB_UI_DEFAULT_TOOLTIP_COLOR
+设置 UI 默认工具提示颜色。
+
+OPTIONS_DB_UI_ROLLOVER_TOOLTIP_COLOR
+设置 UI 鼠标悬停工具提示颜色。
+
+OPTIONS_DB_UI_PLANET_STATUS_ICON_SIZE
+设置行星状态图标的大小。
+
+OPTIONS_DB_UI_SHOW_SIDEPANEL_STALE_BUILDING
+在侧面板上显示过时可见性的建筑。过时可见性意味着之前已探测到，根据最后已知状态和位置以及玩家当前的探测等级应该当前可见，但目前未在任何地方探测到。
+
+OPTIONS_DB_UI_PLANET_STATUS_ICON_TITLE
+行星状态通知
+
+OPTIONS_DB_UI_PLANET_STATUS_ATTACKED
+%1% 在上一回合受到攻击。
+
+OPTIONS_DB_UI_PLANET_STATUS_CONQUERED
+%1% 刚刚被征服。稳定性可能会降低。
+
+OPTIONS_DB_UI_PLANET_STATUS_UNHAPPY
+%1% 的人口非常不快乐。[[metertype METER_INDUSTRY]] 和 [[metertype METER_RESEARCH]] 都不会增加。它不能作为定居者的来源。
+
+OPTIONS_DB_UI_PLANET_STATUS_NO_SUPPLY
+%1% 已被切断补给。该行星产生的工业只能在本地使用。
+
+OPTIONS_DB_UI_BIG_FLEET_BUTTON_MIN_ZOOM
+设置在星系地图上显示大舰队图标的最小缩放级别。
+
+OPTIONS_DB_UI_FLEET_BUTTON_SIZE
+设置舰队按钮的相对大小。
+
+OPTIONS_DB_GAMESETUP_UID
+新游戏的 UID。仅限服务器的选项，可用于无主机服务器上的可预测游戏名称。
+
+OPTIONS_DB_AI_LOG_DIR
+设置 AI 客户端写入日志文件的目录路径。
+
+OPTIONS_DB_AUTOSAVE_HOSTLESS_EACH_PLAYER
+在无主机模式下，每当玩家提交指令时启用自动保存。这将防止在服务器崩溃时丢失已发布的指令。
+
+OPTIONS_DB_AUTOSAVE_INTERVAL
+最近一次回合开始或自动保存后，直到下一次自动保存的延迟（秒）。防止服务器崩溃时丢失玩家指令。如果为 0 则禁用。
+
+OPTIONS_DB_UI_SIDEPANEL_OPEN_METER_UPDATE
+当打开新星系的侧面板时运行计量/效果更新。处理时可能会导致 UI 短暂卡顿。
+
+OPTIONS_DB_UI_OBJECT_CHANGED_METER_UPDATE
+当对象状态改变时运行计量/效果更新。发布指令后处理时可能会导致 UI 短暂卡顿。
+
+OPTIONS_DB_SERVER_BINARY_SERIALIZATION
+如果客户端版本与服务器版本匹配，服务器将使用二进制序列化进行客户端-服务器交互。二进制序列化传输速度更快，但在不同操作系统和架构之间可能不兼容。
+
+OPTIONS_DB_FREEORIOND_PATH
+freeoriond 服务器可执行文件的路径。
+
+PLAYING_GAME
+正在进行游戏: %1%
+
+PLAYER_ENTERED_GAME
+%1% 进入了游戏
+
+PLAYER_LEFT_GAME
+%1% 离开了游戏
+
+GSETUP_EXTREMELY_LOW
+极低
+
+GSETUP_VERY_LOW
+非常低
+
+GSETUP_VERY_HIGH
+非常高
+
+GSETUP_EXTREMELY_HIGH
+极高
+
+GAME_MENU_CONFIRM_NOT_READY
+确认退出？指令未完成。
+
+OPTIONS_PEDIA_SEARCH_ARTICLE_TEXT
+搜索百科文章文本
+
+OPTIONS_SHOW_SIDEPANEL_STALE_BUILDING
+在侧面板显示过时可见性建筑
+
+OPTIONS_FONT_BOLD_TEXT
+粗体文本
+
+OPTIONS_UI_BIG_FLEET_BUTTON_MIN_ZOOM
+大舰队图标最小缩放
+
+OPTIONS_UI_FLEET_BUTTON_SIZE
+舰队按钮相对大小
+
+OPTIONS_GALAXY_MAP_STARFIELDS_SCALE
+星系地图星域恒星大小
+
+OPTIONS_GALAXY_MAP_DETECTION_RANGE_FUTURE
+选中舰队未来探测范围圈
+
+OPTIONS_UI_LOCK_MAP
+锁定地图缩放和平移
+
+OPTIONS_DEFAULT_TOOLTIP_COLOR
+默认工具提示
+
+OPTIONS_ROLLOVER_TOOLTIP_COLOR
+鼠标悬停工具提示
+
+OPTIONS_FOLDER_CONFIG_LOG
+配置和日志文件
+
+OPTIONS_SERVER_EXE
+服务器二进制文件
+
+OPTIONS_FONT_FILE
+字体文件
+
+OPTIONS_AUTOSAVE_GAME_CLOSE
+认输或关闭游戏时启用自动保存
+
+OPTIONS_AUTOSAVE_GALAXY_CREATION
+星系创建后启用自动保存
+
+OPTIONS_UI_SIDEPANEL_OPEN_METER_UPDATE
+星系侧面板打开计量更新
+
+OPTIONS_UI_OBJECT_CHANGED_METER_UPDATE
+对象变更计量更新
+
+OPTIONS_CREATE_ALL_CONFIG_SUCCESS
+成功写入 config.xml
+
+OPTIONS_CREATE_ALL_CONFIG_FAILURE
+无法写入 config.xml，请检查日志文件以获取详细信息。
+
+OPTIONS_WRITE_ALL_CONFIG
+写入完整配置文件
+
+OPTIONS_CREATE_ALL_CONFIG_TOOLTIP_TITLE
+创建完整配置（中级功能）
+
+OPTIONS_CREATE_ALL_CONFIG_TOOLTIP_DESC
+'''将当前配置设置保存到 config.xml，包括所有设置，即使未从默认值修改。
+
+现有的 options.xml 将被覆盖，但如果更改了另一个选项（包括重新定位某些游戏窗口或在选项窗口内），可能会重新生成（仅包含非默认选项）。'''
+
+
+MAP_BTN_TURN_UNREADY
+修改 %1%
+
+MAP_BTN_TURN_REVOKE
+撤销 %2% 指令并重新开始第 %1% 回合
+
+MAP_BTN_TURN_SEND_AND_START
+发送 %2% 指令并开始第 %1% 回合
+
+MAP_BTN_TURN_TOOLTIP
+开始回合
+
+MAP_BTN_TURN_TOOLTIP_DESC_SP
+'''按以下顺序开始回合处理：
+
+[[MAP_BTN_TURN_TOOLTIP_SEQUENCE_MACRO]]'''
+
+
+MAP_BTN_TURN_TOOLTIP_DESC_MP
+'''向服务器发送指令。回合处理将按以下顺序执行：
+
+[[MAP_BTN_TURN_TOOLTIP_SEQUENCE_MACRO]]'''
+
+
+MAP_BTN_TURN_TOOLTIP_DESC_OBS
+观察者无法开始回合处理。
+
+MAP_BTN_TURN_TOOLTIP_DESC_MOD
+'''即使某些玩家尚未向服务器发送指令，也开始回合处理。
+回合处理将按以下顺序执行：
+
+[[MAP_BTN_TURN_TOOLTIP_SEQUENCE_MACRO]]'''
+
+
+MAP_BTN_TURN_TOOLTIP_DESC_WAIT
+等待其他玩家发送指令。再次点击以修改指令。
+
+MAP_BTN_TURN_TOOLTIP_SEQUENCE_MACRO
+'''<u>指令执行</u>
+殖民、入侵、轰炸、赠送、拆解和舰队移动
+
+<u>战斗结算</u>
+
+<u>生产、研究和增长</u>
+效果执行、飞船和建筑生产、新科技解锁、人口增长、补给传播更新'''
+
+
+MAP_TIMEOUT_SECONDS
+%1% 秒
+
+MAP_TIMEOUT_MINS_SECS
+%1% 分 %2% 秒
+
+MAP_TIMEOUT_HRS_MINS
+%1% 小时 %2% 分
+
+MAP_BTN_GOVERNMENT
+政府政策
+
+MAP_BTN_GOVERNMENT_DESC
+''''''
+
+
+CENSUS_TARGET_POPULATION
+目标人口: %1%
+
+CENSUS_TOTAL_POPULATION
+当前人口: %1%
+
+CENSUS_TOTAL_WORLDS
+已定居世界: %1%
+
+MAP_INFLUENCE_TITLE
+影响力
+
+MAP_INFLUENCE_TEXT
+帝国总影响力产出
+
+INFLUENCE_PRODUCTION
+影响力产出
+
+INFLUENCE_CONSUMPTION
+影响力消耗
+
+PL_ANNEX
+吞并 (%1% IP)
+
+PL_ANNEX_FREE
+吞并
+
+PL_ANNEXABLE
+可吞并 (%1% IP)
+
+PL_ANNEXATION_RESTRICTED
+不可吞并
+
+PL_CANCEL_ANNEX
+取消吞并 (%1% IP)
+
+ANNEX_BUTTON_TOOLTIP
+'''%1% 对 %2% 的评价: %3%
+%1% 对 %4% 的评价: %5%
+行星稳定性: %6%
+行星人口: %7%
+建筑生产成本: %8%
+%2% 的吞并成本: %9%
+
+条件:
+%10%'''
+
+
+VISIBILITY
+可见度
+
+LAST_VISIBILITY_TURN
+上次可见回合
+
+MENUITEM_ENQUEUE_SHIPDESIGN_TO_TOP_OF_QUEUE
+将飞船添加到队列顶部
+
+MENUITEM_ENQUEUE_BUILDING_TO_TOP_OF_QUEUE
+将建筑添加到队列顶部
+
+TT_DAMAGE_BREAKDOWN_SUMMARY
+%1% 轮战斗总计，结构伤害: %2% / 战机摧毁: %3%
+
+TT_POLICY
+%1% 政策 <i>%2%</i>
+
+FW_OBSTRUCTIVE
+[[FLEET_OBSTRUCTIVE]]
+
+FW_OBSTRUCTIVE_DESC
+舰队阻挡敌方舰队通过其星系，但不主动发起战斗。但仍可参与由其他帝国或舰队发起的战斗。
+
+FW_DEFENSIVE
+[[FLEET_DEFENSIVE]]
+
+FW_DEFENSIVE_DESC
+舰队将试图保持隐藏，除非发生战斗；它不会封锁敌方舰队通过或主动发起战斗。但仍可参与由其他帝国或舰队发起的战斗。
+
+SHIP_DESTRUCTION_STAT_TITLE
+摧毁的战机
+
+FW_FLEET_DESTROY_SUMMARY
+舰队战机摧毁量 - 等于舰队中飞船和战机摧毁战机的总最大值。
+
+FW_FLEET_INFLUENCE_SUMMARY
+舰队影响力 - 等于舰队中飞船的总影响力产出。
+
+AT_PEACE_WITH
+与之和平
+
+AT_WAR_WITH
+与之交战
+
+ALLIED_WITH
+与之结盟
+
+POLICY_LOCKED
+政策不可用，但采用需要 %1% IP
+
+POLICY_RESTRICTED
+政策受限，但采用需要 %1% IP
+
+POLICY_EXCLUDED
+政策采用受限于与 %1% 的排斥
+
+POLICY_PREREQ_MISSING
+政策采用受限于先决条件 %1%
+
+POLICY_PREREQ_MET
+政策采用满足先决条件 %1%
+
+POLICY_ADOPTABLE_COST
+政策可采用，花费 %1% IP
+
+POLICY_ADOPTED
+政策已采用。现在采用需要 %1% IP。
+
+POLICY_ADOPTION_TIMES_CURRENT_AND_TOTAL
+政策当前已采用 %1% 回合，累计 %2% 回合。
+
+POLICY_ADOPTION_TIME_TOTAL
+政策当前未采用。累计已采用 %2% 回合。
+
+POLICY_LIST_ADOPTED
+已采用
+
+POLICY_LIST_ADOPTABLE
+可采用
+
+POLICY_LIST_UNAFFORDABLE
+无法负担
+
+POLICY_LIST_RESTRICTED
+受限
+
+POLICY_LIST_LOCKED
+锁定
+
+ALL_POLICY_AVAILABILITY_FILTERS_BLOCKING_PROMPT
+切换类别和可用性筛选器以显示政策。
+
+UNDELETE_QUEUE_ITEM
+<rgba 96 255 96 255>恢复到队列</rgba>
+
+MOVE_UP_LIST_ITEM
+移至顶部
+
+MOVE_DOWN_LIST_ITEM
+移至底部
+
+PRODUCTION_WND_TOOLTIP_PROD_TIME_MINIMUM
+最低生产回合数：%1%
+
+PRODUCTION_WND_TOOLTIP_LOCATION_DEPENDENT
+取决于位置
+
+NO_PRODUCTION_HERE_CANT_PRODUCE
+%1% 处生产不足，无法生产
+
+DESIGN_WND_RENAME_FINISHED
+重命名已完成的设计
+
+DESIGN_WND_RENAME_FINISHED_DETAIL
+'''将已完成的设计从
+"%1%"
+重命名为
+"%2%"'''
+
+GOVERNMENT_INFO_IP
+IP
+
+GOVERNMENT_WND_REVERT
+恢复
+
+ECONOMIC_CATEGORY
+经济
+
+SOCIAL_CATEGORY
+社会
+
+MILITARY_CATEGORY
+军事
+
+PP_STOCKPILE
+生产储备
+
+STOCKPILE_EXTRACTION
+储备提取
+
+IP_OUTPUT
+净影响力产出
+
+IP_STOCKPILE
+影响力储备
+
+POLICIES_ADOPTED
+已采纳政策
+
+USE_LINEAR_SCALE
+线性比例
+
+USE_LOG_SCALE
+对数比例
+
+SHOW_SCALE
+显示比例
+
+HIDE_SCALE
+隐藏比例
+
+SHOW_LINES
+绘制连线
+
+SHOW_POINTS
+绘制点
+
+SCALE_TO_ZERO
+缩放至零
+
+SCALE_FREE
+自由缩放
+
+ENC_POLICY
+政策
+
+ENC_POLICY_DESC
+可由帝国采纳的改进型或情境型效果。
+
+ENC_POLICY_SLOTS
+政策槽
+
+ENC_POLICY_SLOTS_DESC
+'''政策槽用于在政府界面中采纳政策。槽位和政策均有类别（经济、军事、社会），只有对应类别的政策才能放入槽位。
+
+槽位数量有限，开启更多槽位是帝国发展的重要方面，因为它允许采纳超出初始可用槽位数量的政策。通过拥有建筑、研究科技、拥有特定舰体的舰船以及采纳政策，都可以打开新的槽位。通常，一种开启槽位的方式对每个帝国仅生效一次，因此仅拥有该建筑或舰体的额外副本也不会在首次之后带来额外的槽位。
+
+经济政策槽：
+[[buildingtype BLD_IMPERIAL_PALACE]]
+[[policy PLC_INTERSTELLAR_INFRA]]
+[[policy PLC_PLANETARY_INFRA]]
+[[policy PLC_SYSTEM_INFRA]]
+[[tech PRO_SENTIENT_AUTOMATION]]
+
+军事政策槽：
+[[buildingtype BLD_MILITARY_COMMAND]]
+[[shiphull SH_SENTIENT]]
+[[tech LRN_DISTRIB_THOUGHT]]
+[[tech LRN_TIME_MECH]]
+
+社会政策槽：
+[[buildingtype BLD_CULTURE_ARCHIVES]]
+[[buildingtype BLD_SCRYING_SPHERE]]
+[[buildingtype BLD_TRANSLATOR]]
+[[tech CON_ARCH_PSYCH]]
+[[tech CON_TRANS_ARCH]]
+[[tech LRN_MIND_VOID]]
+'''
+
+ENC_POICY_EXCLUSIONS
+'''无法同时采纳：'''
+
+ENC_POICY_PREREQUISITES
+'''必须先满足以下条件才能采纳：'''
+
+KNOWN_FIELDS_OF_THIS_TYPE
+当前已知的此类区域的可点击列表，附带银河坐标：
+
+NO_KNOWN_FIELDS
+无
+
+SPECIES_THAT_LIKE
+'''喜欢此物的种族：'''
+
+SPECIES_THAT_DISLIKE
+'''不喜欢此物的种族：'''
+
+ENC_NAMED_VALUE_REF
+[测试 - 命名值引用]
+
+ENC_NAMED_VALUE_REF_DESC
+'''某些数值计算会被命名，以便结果值可在百科或AI帝国中使用。这通常用于展示依赖游戏规则的数值。
+
+以下列出的项目包括：名称、注册类型（整数/实数/任意）、计算出的数值、（计算方式）、计算的字符串表描述，以及不变性模式。
+'''
+
+ENC_STRINGS
+[测试 - 字符串表条目]
+
+UNKNOWN_SPECIES
+未知物种
+
+UNKNOWN_EMPIRE
+未知帝国 (%1%)
+
+ISSUED_ORDERS
+'''已下达指令：'''
+
+ORDER_UNEXECUTED
+''' - 未执行'''
+
+ORDER_RENAME
+将ID %1% 重命名为 %2%
+
+ORDER_FLEET_NEW
+创建名为 %1% 的 %3% 舰队，包含 %2% 艘舰船
+
+ORDER_FLEET_MOVE
+舰队移动 %1% 至 %2%
+
+ORDER_FLEET_TRANSFER
+舰队转移 %1% 至 %2%
+
+ORDER_ANNEX
+吞并 %1%
+
+ORDER_COLONIZE
+用 %2% 在 %1% 建立殖民地
+
+ORDER_INVADE
+用 %2% 进攻 %1%
+
+ORDER_BOMBARD
+用 %2% 轰炸 %1%
+
+ORDER_FOCUS_CHANGE
+焦点变更 %1% 至 %2%
+
+ORDER_POLICY_ADOPT
+在类别 %2% 的槽位 %3% 采纳政策 %1%
+
+ORDER_POLICY_ABANDON
+放弃政策 %1%
+
+ORDER_RESEARCH_REMOVE
+从队列中移除科技 %1%
+
+ORDER_RESEARCH_PAUSE
+暂停研究科技 %1%
+
+ORDER_RESEARCH_RESUME
+继续研究科技 %1%
+
+ORDER_RESEARCH_ENQUEUE_AT
+在索引 %2% 处排队科技 %1%
+
+ORDER_PRODUCTION
+生产
+
+ORDER_SHIP_DESIGN
+舰船设计
+
+ORDER_SCRAP
+报废
+
+ORDER_FLEET_AGGRESSION
+设置舰队侵略性
+
+ORDER_GIVE_TO_EMPIRE
+移交至帝国
+
+ORDER_FORGET
+遗忘
+
+ADOPTED_POLICIES
+'''已采纳政策：'''
+
+NO_POLICIES_ADOPTED
+尚未知晓任何已采纳的政策
+
+ENC_POP_CENTER
+人口中心
+
+ENC_PROD_CENTER
+生产中心
+
+ENC_FIGHTER
+战斗机
+
+ENC_VECTOR_TEXTURE_INFO
+%4% -- %1% x %2% 像素，包含 %3% 个形状<img src = "%4%"></img>
+
+ENC_SEARCH_TOOK
+搜索 "%1%" 耗时 %2%
+
+ENC_IP
+IP
+
+ENC_COST_STR
+%1% %2%
+
+ENC_PRODUCTION_LOCATION_REQUIREMENTS
+'''生产地点要求：
+'''
+
+ENC_ENQUEUE_LOCATION_REQUIREMENTS
+'''排队要求：
+'''
+
+ENC_EFFECTS
+'''效果：
+'''
+
+ENC_POLICY_DETAIL_TYPE_STR
+%1% 政策 -
+
+ENC_COMBAT_EMPIRE_FIGHTER_NAME
+%1% %2% %3%
+
+ENC_COMBAT_ROGUE
+流浪者
+
+ENC_COMBAT_NEUTRAL_INITIAL_STEALTH_LIST
+[[NEUTRAL]]势力初始时无法探测：
+
+ENC_COMBAT_STEALTH_DECLOAK_LAUNCH
+%2%在战斗机发射时探测到%1%。
+
+DISTORTION_ARTICLE_SHORT_DESC
+畸变
+
+INDUSTRY_ARTICLE_SHORT_DESC
+工业
+
+RESEARCH_ARTICLE_SHORT_DESC
+研究
+
+PROTECTION_ARTICLE_SHORT_DESC
+防护
+
+LOGISTICS_ARTICLE_SHORT_DESC
+后勤
+
+PLANETDRIVE_ARTICLE_SHORT_DESC
+行星驱动
+
+PSYCHIC_ARTICLE_SHORT_DESC
+心灵
+
+STOCKPILE_TITLE
+帝国储备
+
+STOCKPILE_TEXT
+'''大部分工业点数（PP）会立即用于建造建筑或舰船。帝国也可以将生产点数（PP）储存起来，以备日后使用，即存入帝国储备。通常情况下，PP只能在生成该点数的补给网络内的生产地点使用。而帝国储备中的PP则可以在任何己方拥有的生产地点使用。每回合只能使用少量PP——不超过帝国使用上限的量。
+
+有两种方式可以将PP存入帝国储备：
+• 任何其他地点未分配给队列中任何项目的剩余PP会自动转入储备。这可能会触发警告。
+• 明确分配给[[encyclopedia PROJECT_BT_STOCKPILE]]的PP也会转入储备。
+
+帝国储备使用上限是各行星[[metertype METER_STOCKPILE]]的总和。
+物种储备分配能力、建筑、科技以及设置[[encyclopedia STOCKPILE_FOCUS_TITLE]]可提升该上限。
+
+关于帝国储备的信息、使用情况及使用上限，可在[[encyclopedia MAP_WINDOW_ARTICLE_TITLE]]的顶部查看。
+生产详情可在[[encyclopedia PRODUCTION_WINDOW_ARTICLE_TITLE]]中查看。
+影响行星[[metertype METER_STOCKPILE]]的各类效果可在系统概览中的[[PLANET_PANEL]]中找到。'''
+
+METER_TARGET_INFLUENCE_VALUE_LABEL
+[[METER_INFLUENCE_VALUE_LABEL]]
+
+METER_TARGET_INFLUENCE_VALUE_DESC
+[[METER_INFLUENCE_VALUE_DESC]]
+
+METER_INFLUENCE_VALUE_LABEL
+影响力
+
+METER_INFLUENCE_VALUE_DESC
+'''帝国所有行星的影响力（或称IP，影响力点数）代表了外交影响力、幕后交易、间谍活动、公共关系、宣传以及文化影响力等。它可用于采纳政府[[encyclopedia ENC_POLICY]]，并用于维持有人殖民地的开销。当殖民地维护所需的总IP超过帝国的总IP产出时，可用的影响力储备将减少。如果影响力消耗速度持续超过生成速度，帝国可能会陷入影响力负债，导致稳定性下降，并在殖民地上出现叛乱部队。通过将行星设置为[[encyclopedia INFLUENCE_FOCUS_TITLE]]可提升影响力生成。
+
+目标影响力是行星在当前影响因素下将趋于稳定的影响力产出水平。其数值与行星上建造的[[encyclopedia ENC_BUILDING_TYPE]]、帝国研究的[[encyclopedia ENC_TECH]]、与行星关联的[[encyclopedia ENC_SPECIAL]]、帝国采纳的[[encyclopedia ENC_POLICY]]以及其他各种游戏效果相关。当这些因素发生变化时，目标影响力值也可能会随之改变。
+
+影响力无需[[metertype METER_SUPPLY]]线路连接即可使用，但未连接至首都或[[buildingtype BLD_REGIONAL_ADMIN]]的殖民地可能消耗更多影响力。'''
+
+STABILITY_MODIFIERS
+'''• -/+ 5 首都补给连接 - 基于与首都或区域行政建筑之间的跳跃距离。不影响[[encyclopedia INDEPENDENT]]物种以及已采纳[[policy PLC_CONFEDERATION]]政策的帝国。
+• +5 本星物种 - 物种在其母星上更稳定
+• +5 首都物种 - 与首都同种的殖民地更稳定。不适用于首都本身。
+• +10 首都 - 殖民地包含[[buildingtype BLD_IMPERIAL_PALACE]]。
+• 环境 - 基于物种环境偏好的加成或减益。游戏开始时在游戏规则的MISC：稳定性标签中设定。
+• 行星大小 - 基于行星大小的加成或减益。游戏开始时在游戏规则的MISC：稳定性标签中设定。
+• +1 艺术家欣赏 - 同一系统内有2个或以上艺术型物种。
+• -2/+2 喜爱/厌恶焦点 - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• -2/+2 喜爱/厌恶政策 - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• 喜爱/厌恶建筑（在行星上） - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• 喜爱/厌恶建筑（在系统内） - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• 喜爱/厌恶建筑（在系统外） - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• 喜爱/厌恶特殊能力（在行星上） - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• 喜爱/厌恶特殊能力（在系统内） - 由政策[[policy PLC_LIBERTY]]和[[policy PLC_CONFORMANCE]]调整。
+• 特殊能力 - 例如[[special GAIA_SPECIAL]]和[[special WORLDTREE_SPECIAL]]。
+• 政策
+• 物种特性'''
+
+DETECTION_STAR_MODIFIERS
+'''探测范围和舰船隐身能力受星系恒星类型影响：
+• 无恒星：探测范围+10。舰船隐身-10。
+• 中子星：探测范围-15。舰船隐身+5。
+• 黑洞：探测范围+5。舰船隐身+10。
+• 红星：舰船隐身-5。
+• 橙星：无修正。
+• 黄星：探测范围-5。
+• 白星：探测范围-10。
+• 蓝星：探测范围-15。'''
+
+WAR_TITLE
+战争
+
+WAR_TEXT
+战争是帝国之间的默认外交状态。武装舰船将对敌方舰船实施[[encyclopedia SYSTEM_BLOCKADE_TITLE]]，阻碍敌方[[metertype METER_SUPPLY]]线路，妨碍敌方殖民扩张，并与敌方舰船交战。敌方行星可能遭受入侵或炮击。
+
+ALLIANCE_TITLE
+同盟
+
+ALLIANCE_TEXT
+同盟是帝国之间最紧密的外交关系。同盟帝国共享视野和[[metertype METER_SUPPLY]]补给线。当游戏规则相应设定时，同盟帝国可以共享胜利。
+
+GIFTING_TITLE
+赠送
+
+GIFTING_TEXT
+外交关系足够密切的帝国（[[encyclopedia PEACE_TITLE]]或更紧密），可以互相赠送行星或舰队，前提是目标帝国在被赠送对象所在的星系中已有存在（舰船或行星）。
+
+DISTORTION_FOCUS_TITLE
+空间畸变聚焦
+
+DISTORTION_FOCUS_TEXT
+操控通往该行星的星际航道，使敌方舰船每回合前进速度减缓40单位。减速的舰船甚至可能被强制退回星际航道另一端的星系。在建造[[buildingtype BLD_SPATIAL_DISTORT_GEN]]后可用。
+
+INDUSTRY_FOCUS_TITLE
+工业聚焦
+
+INDUSTRY_FOCUS_TEXT
+专注于工业的行星将为帝国产生更多的[[metertype METER_INDUSTRY]]产出，用于建造舰船和建筑，或可储存以备后用。工业聚焦对人口较高的行星提升效果更显著。
+
+RESEARCH_FOCUS_TITLE
+研究聚焦
+
+RESEARCH_FOCUS_TEXT
+专注于研究的行星将为帝国产生更多的[[metertype METER_RESEARCH]]产出，用于解锁新技术。研究聚焦对人口较高的行星提升效果更显著。
+
+INFLUENCE_FOCUS_TITLE
+影响力聚焦
+
+INFLUENCE_FOCUS_TEXT
+专注于影响力的行星将为帝国产生更多的[[metertype METER_INFLUENCE]]，用于采纳政府政策以及支付殖民地维持费用。
+
+LOGISTICS_FOCUS_TITLE
+后勤聚焦
+
+LOGISTICS_FOCUS_TEXT
+'''专注于后勤的行星其[[metertype METER_SUPPLY]]增加3点。这使该行星所属帝国的补给网络范围扩展3个星际航道跳跃距离。
+
+解锁条件：[[tech SHP_INTSTEL_LOG]]。'''
+
+PLANETDRIVE_FOCUS_TITLE
+行星驱动聚焦
+
+PLANETDRIVE_FOCUS_TEXT
+在建造[[buildingtype BLD_PLANET_DRIVE]]后，且相邻星系中存在[[buildingtype BLD_PLANET_BEACON]]或[[shippart SP_PLANET_BEACON]]，选择[[PLANETDRIVE_FOCUS_TITLE]]可将该行星在星系间移动。
+
+PSYCHIC_FOCUS_TITLE
+心灵支配聚焦
+
+PSYCHIC_FOCUS_TEXT
+'''[[PSYCHIC_FOCUS_TITLE]]将人口的精神力集中，以支配同一星系中敌方非心灵感应型船员的思维。
+
+每回合有10%的概率夺取每艘敌方舰船的控制权，除非敌方帝国也拥有技术[[LRN_PSY_DOM]]。
+
+当启用心灵支配聚焦时，也会降低[[predefinedshipdesign SM_PSIONIC_SNOWFLAKE]]在该星系内夺取本帝国控制舰船的概率。
+
+解锁条件：[[tech LRN_PSY_DOM]]。'''
+
+ARTISTIC_SPECIES_TITLE
+艺术特质
+
+ARTISTIC_SPECIES_TRAIT_TEXT
+'''拥有艺术特质的种族在帝国采纳[[policy PLC_ARTISAN_WORKSHOPS]]后会创作艺术作品，产生影响力。此外，同一星系中拥有不同艺术特质的行星会更加稳定。
+
+艺术种族列表：'''
+
+INDEPENDENT_SPECIES_TITLE
+独立特质
+
+INDEPENDENT_SPECIES_TRAIT_TEXT
+'''独立种族的稳定性不受与首都或区域管理距离相关的修正影响。
+
+独立种族列表：'''
+
+SNEAKY_TITLE
+隐秘
+
+SNEAKY_TEXT
+'''隐秘种族研究 [[tech SPY_STEALTH_1]]、[[tech SPY_STEALTH_2]]、[[tech SPY_STEALTH_3]] 和 [[tech SPY_STEALTH_4]] 时成本降低。
+
+隐秘种族列表：'''
+
+ADAPTIVE_TITLE
+适应性强
+
+ADAPTIVE_TEXT
+'''适应性强种族研究 [[tech GRO_SYMBIOTIC_BIO]]、[[tech GRO_XENO_GENETICS]] 和 [[tech GRO_XENO_HYBRIDS]] 时成本降低。
+
+适应性强种族列表：'''
+
+MESSAGES_WAR_DECLARATION
+%1% 和 %2% 现在处于战争状态。
+
+MESSAGES_PEACE_TREATY
+%1% 和 %2% 现在恢复和平。
+
+MESSAGES_ALLIANCE
+%1% 和 %2% 已结成同盟。
+
+MESSAGES_HELP_COMMAND
+'''/pedia [文章]：在百科中打开指定文章
+/pm [玩家] [消息]：向指定玩家发送私信
+/zoom [对象]：将视角聚焦到指定宇宙物体（星系、行星、飞船、舰队或建筑）
+'''
+
+MESSAGES_WHISPER
+(低语)
+
+MESSAGES_INVALID
+无效玩家或未输入消息。
+
+PLANET_ENVIRONMENTS_SUBMENU
+物种适宜环境
+
+DEFAULT_FOCUS
+默认焦点
+
+ATTACK
+总武器伤害
+
+DAMAGE_STRUCTURE_PER_BATTLE
+每次战斗造成的总结构伤害
+
+DESTROY_FIGHTERS_PER_BATTLE
+每次战斗摧毁的战斗机数量
+
+PRODUCTION_COST
+生产成本
+
+TURNS_SINCE_COLONIZATION
+殖民以来的回合数
+
+DISTANCE_TO_SELECTED_SYSTEM
+至选中星系的距离
+
+DISTANCE_TO_SELECTED_FLEET
+至选中舰队的距离
+
+PREV_TO_FINAL_DEST
+前一星系至最终目的地
+
+ARRIVAL_STARLANE
+抵达自星系
+
+LAST_TURN_MOVE_ORDERED
+最后下达移动指令的回合
+
+LAST_TURN_COLONIZED
+最后殖民的回合
+
+LAST_TURN_ANNEXED
+最后吞并的回合
+
+ANNEXATION_COST_BY_ME
+吞并成本
+
+SITREP_EMPIRE_TECH_RESEARCHED_DETECTION
+%empire% [[encyclopedia DETECTION_TITLE]] 已升级至 %rawtext:dstrength%
+
+SITREP_EMPIRE_TECH_RESEARCHED_DETECTION_LABEL
+帝国探测科技升级
+
+SITREP_POLICY_UNLOCKED
+%policy% 已解锁，现在可以采纳。
+
+SITREP_POLICY_UNLOCKED_LABEL
+政策已解锁
+
+SITREP_WEAPONS_UPGRADED
+所提供舰船上的所有 %shippart% 武器已升级至 %tech%。升级后的武器每次射击造成 %rawtext:dam% 点额外伤害
+
+SITREP_WEAPONS_UPGRADED_LABEL
+武器科技升级
+
+SITREP_WEAPON_SHOTS_UPGRADED
+所提供舰船上的所有 %shippart% 武器已升级至 %tech% 技术。升级后的武器每轮多出 %rawtext:shots% 次射击（总计 %rawtext:shotsum% 次）
+
+SITREP_WEAPON_SHOTS_UPGRADED_LABEL
+武器科技升级
+
+SITREP_PLANET_CAPTURED_NEUTRALS
+%planet% 已脱离 %empire% 成为独立星系
+
+SITREP_PLANET_CAPTURED_NEUTRALS_LABEL
+行星成为独立星系
+
+SITREP_PLANET_ANNEXED
+%planet% 已被 %empire% 吞并。
+
+SITREP_PLANET_ANNEXED_LABEL
+中立行星被吞并
+
+SITREP_PLANET_ANNEXED_FROM_OTHER_EMPIRE
+%planet% 已被 %empire:annexer% 从 %empire:original% 吞并。
+
+SITREP_PLANET_ANNEXED_FROM_OTHER_EMPIRE_LABEL
+帝国行星被吞并
+
+SITREP_PLANET_ESTABLISH_FAILED
+舰船 %ship% 在 %planet% 上建立殖民地或前哨站失败。
+
+SITREP_PLANET_ESTABLISH_FAILED_LABEL
+舰船在行星上建立失败
+
+SITREP_PLANET_ESTABLISH_FAILED_VISIBLE_OTHER
+舰船 %ship% 在 %planet% 上建立殖民地或前哨站失败，因为 %empire% 也试图在同一颗行星上建立。
+
+SITREP_PLANET_ESTABLISH_FAILED_VISIBLE_OTHER_LABEL
+舰船在行星上建立失败
+
+SITREP_PLANET_ESTABLISH_FAILED_ARMED
+舰船 %ship% 在 %planet% 上建立殖民地或前哨站失败，因为 %empire% 在该星系中部署了武装舰船。
+
+SITREP_PLANET_ESTABLISH_FAILED_ARMED_LABEL
+舰船在行星上建立失败
+
+SITREP_PLANET_ESTABLISH_FAILED_NEUTRAL_ARMED
+舰船 %ship% 在 %planet% 上建立殖民地或前哨站失败，因为该星系中存在中立武装舰船。
+
+SITREP_PLANET_ESTABLISH_FAILED_ARMED_NEUTRAL_LABEL
+舰船在行星上建立失败
+
+SITREP_OUTPOST_ABANDONED_PREPARATION
+%planet% 上的前哨站将在第 %rawtext% 回合准备撤离。
+
+SITREP_OUTPOST_ABADONED_PREPARATION_LABEL
+前哨站准备撤离
+
+SITREP_OUTPOST_ABANDONED_PREVENTED_BY_BATTLE
+%planet% 上的前哨站无法撤离，因为该星系 %system% 中仍有战斗发生。
+
+SITREP_OUTPOST_ABANDONED
+%planet% 上的前哨站已被撤离。%rawtext%。
+
+SITREP_OUTPOST_ABADONED_LABEL
+前哨站已被撤离
+
+SITREP_COLONY_INDEPENDENT
+%planet%：%species% 殖民地已获得独立。
+
+SITREP_COLONY_INDEPENDENT_LABEL
+殖民地独立
+
+SITREP_FLEET_GIFTED
+%fleet% 被 %empire% 赠予。
+
+SITREP_FLEET_GIFTED_LABEL
+舰队被赠予
+
+SITREP_PLANET_GIFTED
+%planet% 被 %empire% 赠予。
+
+SITREP_PLANET_GIFTED_LABEL
+行星被赠予
+
+SITREP_FLEET_BLOCKADED
+在 %system%：被 %empire:blockaded% 阻截的舰队 %fleet% 因 %empire:blockader% 的封锁而被迫停止前进。
+
+SITREP_FLEET_BLOCKADED_NEUTRAL
+在 %system%：舰队 %fleet% 被封锁迫使停航。
+
+SITREP_FLEET_BLOCKADED_LABEL
+舰队被封锁
+
+SITREP_FLEET_BLOCKADED_NO_EMPIRE
+在 %system%：舰队 %fleet% 被封锁迫使停航。
+
+SITREP_FLEET_BLOCKADED_NO_EMPIRE_LABEL
+舰队被封锁
+
+SITREP_NOVA_DETECTED
+天文学家观测到一颗新超新星爆发，摧毁了该恒星系统内的一切，仅留下 %system%！
+
+SITREP_NOVA_DETECTED_LABEL
+发现超新星
+
+EFFECT_THENIAN_NATURAL_DIEOFF
+%planet% 发生了自然的 [[species SP_THENIAN]] 人口锐减，当前人口减半。
+
+EFFECT_THENIAN_NATURAL_DIEOFF_LABEL
+自然灭绝
+
+EFFECT_TERRAFORM_BEST
+%planet% 已被改造为 %planettype%（%environment%）。
+
+EFFECT_TERRAFORM_BEST_LABEL
+行星改造
+
+EFFECT_STARLANE_BORE_FAILED
+在 %system%：星际航道钻探未能成功开辟新的星际航道。
+
+EFFECT_STARLANE_NEXUS
+在 %system%：新的星际航道已开通，连接至附近星系。
+
+EFFECT_STARLANE_NEXUS_FAILED
+在 %system%：星际航道枢纽未能成功开启新的星际航道。
+
+EFFECT_STARLANE_NEXUS_LABEL
+星际航道枢纽
+
+EFFECT_DERELICT_TROOPS
+在 %system%：发现并回收了一艘 %species% 的 [[predefinedshipdesign SD_SMALL_TROOP_SHIP]]。
+
+EFFECT_DERELICT_TROOPS_LABEL
+废弃部队
+
+EFFECT_BIOWEAPON_GAIA
+%planet% 因 %shippart% 攻击失去了 [[special GAIA_SPECIAL]]。
+
+EFFECT_BIOWEAPON_UNOWN
+%planet% 因 %shippart% 攻击失去了所有权。
+
+IMPERIAL_GARRISON_ACTIVATED
+帝国驻军：%empire% 在 %system% 的 %planet% 建立了殖民地。
+
+IMPERIAL_GARRISON_ACTIVATED_LABEL
+新殖民地
+
+SITREP_FIELD_RESEARCH_LABEL
+探索研究
+
+SITREP_FIELD_RESEARCH
+在 %system%：探索产生了研究。
+
+SPECIES_OPINIONS
+种族意见：
+
+ALL_SPECIES
+所有种族
+
+ALL_SPECIES_DESC
+所有种族列表：
+
+NATIVE_SPECIES
+原生种族
+
+NATIVE_SPECIES_DESC
+原生种族列表：
+
+PLAYABLE_SPECIES
+可玩种族
+
+PLAYABLE_SPECIES_DESC
+可玩种族列表：
+
+SP_THENIAN
+瑟尼亚人
+
+SP_THENIAN_GAMEPLAY_DESC
+'''深思熟虑的气体生物。
+[[encyclopedia GASEOUS_SPECIES_TITLE]], [[encyclopedia ARTISTIC]]
+'''
+
+SP_THENIAN_DESC
+'''
+栖息于其[[PT_GASGIANT]]类气态巨行星内部极高气压大气层与最外层金属氦核心之间的过渡层中。它们从磁场梯度电流中获取养分，且会周期性地经历种群大规模自然消亡，而这种现象对它们自身而言完全正常，毫无影响。每当种群密度达到上限时，便会触发新一轮的自然消亡，以便它们能以无尽的活力重新繁衍。（当[[SP_THENIAN]]殖民地的[[metertype METER_POPULATION]]达到最大值后，下一回合其数值将被减半。）
+
+由于与自身星球内部结构高度融合，瑟尼亚人根本无法想象离开家园。除非另一颗[[PT_GASGIANT]]物理上与他们的星球发生接触，否则他们根本无法跨越到太空。因此，他们只能在大气层中潜行并繁盛生存。
+'''
+
+SP_CELESTEPHYTE
+星辰藓
+
+SP_CELESTEPHYTE_GAMEPLAY_DESC
+'''
+缓慢生长的通灵地衣，极为脆弱，几乎无害。
+[[encyclopedia PHOTOTROPHIC_SPECIES_TITLE]]，仅存在于少数小行星上。
+'''
+
+SP_CELESTEPHYTE_DESC
+'''
+
+虽然其部分容易脱落并可移植到新生岩石上，但极难成功扎根。其共生的星际真菌需要极为稀有的微量元素（参见 ->不可得元素）才能通过跨维度宇宙网络进行心灵感应传播，而这些元素实在太过稀有，因此星辰藓早已殖民了所有可能适合生存的岩石。
+
+成年星辰藓具有可抓握的附肢，理论上可以从事一些有用的工作，但现实中它们极少这么做，更偏好理论研究。它们尤其不愿打扰自身微小菌丝网络之间精妙的相互连接，即其星体内部与星体间的真菌根系网络。但最重要的是，它们最讨厌被外界打扰。
+
+当遭遇敌人时，它们会试图用自己明显的无能表现和直视对方（如果对方有眼睛的话）来震慑敌人，尤其是当对方尚未发明防护太阳镜技术时。有时这种策略确实奏效，但并非直接作用——攻击者往往因星辰藓所释放的星际真菌孢子通过其充满指责的眼神进行心灵感应传播，而陷入歇斯底里的狂笑中。不过这种效果通常只对意志薄弱者有效，而这类人本就不该来挑战这些古老的星辰藓。这使得它们在当前银河系的生存方式中显得有些格格不入。一些天体真菌学专家推测，星辰藓最初可能是由克图鲁赫赫鲁尔特尔的狂热信徒——被称为‘毛绒泰迪安抚者’的生物，在第二波克图鲁降临期间，从仙女座星系带入的。
+'''
+
+SP_KHAKTURIAN
+卡克图里安人
+
+SP_KHAKTURIAN_GAMEPLAY_DESC
+'''
+带刺且坚韧。两年生入侵性杂草，抗除草剂。
+在早期固着阶段会发射有毒的磨蚀性尖刺，后期则形成强大的滚动型分株用于繁殖。
+[[encyclopedia PHOTOTROPHIC_SPECIES_TITLE]]
+'''
+
+SP_KHAKTURIAN_DESC
+'''
+作为入侵性杂草，这是一种相当顽固且难以根除的物种。当它们将幼苗士兵植入敌对星球的地表后，无人再愿与它们共享这片土地，因为它们实在太过突兀和令人反感。
+
+生命周期：
+可由种子培育（许多星系设有进口限制，种植前应咨询当地的[[buildingtype BLD_REGIONAL_ADMIN]]）。无需层积处理。初次浇水后，便具备耐旱性、抗除草剂性，并能在干燥的沙漠沙地中通过从大气中汲取水分而茁壮成长。
+
+生态习性：
+卡克图里安人渴求电解质和大量阳光，因此特别喜爱[[special TIDAL_LOCK_SPECIAL]]带来的永恒白昼。偶尔被（足够强壮的）植食动物啃食也毫不在意，它们会平静地接受并迅速再生。尽管当被巨大的[[special WORLDTREE_SPECIAL]]遮蔽时会感到些许自卑，完全不愿站在其阴影下，但它们仍能欣赏这棵巨树为其他物种带来的益处，因此通常选择无视它。（卡克图里安人无法获得[[WORLDTREE_SPECIAL]]的任何加成。）
+
+'''
+
+SP_SLEEPERS
+沉眠者
+
+SP_SLEEPERS_GAMEPLAY_DESC
+'''
+无聊的掘洞生物，脚生羽毛。睡眠时间极长。
+偶尔会梦见它们永远无法抵达的远方。
+[[encyclopedia ORGANIC_SPECIES_TITLE]]
+'''
+
+SP_SLEEPERS_DESC
+'''
+
+拥有羽毛但无法飞行的类鸟生物，被迫长时间冬眠。在冬季来临之前——这占他们一年的五分之六——必须准备好合适的睡眠场所。有时他们会梦到那些永远无法到达的遥远地方。但大部分时间，他们的冬天只是深沉而无梦的睡眠。当他们在近日点附近清醒时，也就是他们世界轨道上最接近恒星、极为短暂的宜居时期，他们可能会相当勤勉。但总体而言，他们更喜欢无所事事地闲坐。他们非常钦佩梦游症，但梦游艺术对他们来说遥不可及，他们从未真正掌握过。
+'''
+
+SP_NIGHTSIDERS
+夜行者
+
+SP_NIGHTSIDERS_GAMEPLAY_DESC
+'''
+阴暗的吸血生物，字面意义上的黑色幽默。
+高度适应并自在于永恒的炼狱黑夜之中。
+[[encyclopedia ORGANIC_SPECIES_TITLE]]
+'''
+
+SP_NIGHTSIDERS_DESC
+'''
+
+由于显而易见的原因，大多数其他有机物种都憎恨并畏惧他们。潜伏在阴影中，伏击那些天真地走入黑暗的生物。他们对血液的渴求并非出于意识形态或情感，而纯粹是生物学的需要。在这种情况下，他们以吸血为生，类似于令人讨厌的蜱虫或跳蚤，但体型更大，还拥有星际飞船。
+
+尽管他们希望如此，但他们并非真正具备心灵感应能力。相反，他们是血感者——他们能远距离感知潜在猎物的血液。（夜行者殖民地可探测到距离其9条星际航道内、拥有[[encyclopedia ORGANIC_SPECIES_TITLE]]生命的星球）。
+他们将这种能力称为‘血感感官’，并形容为一种瘙痒感，指引他们前往那些夜晚可扑向猎物的星球。
+
+他们坏到极点，甚至会招来火与硫磺。（夜行者殖民地会吸引附近[[fieldtype FLD_METEOR_BLIZZARD]]的流星暴）。
+
+他们坏到极致，甚至能排斥善性场域。（夜行者殖民地会偏转即将来临的[[fieldtype FLD_NANITE_SWARM]]纳米虫群）。
+
+当被问及为何喜欢或不喜欢某些事物时，典型的夜行者可能会这样回答：
+
+提问者：你想加入我们的[[buildingtype BLD_INTERSPECIES_ACADEMY]]吗？
+夜行者：当然可以，为什么不呢？把你们那边所有的有机物种都展示给我们看看。也许我们哪天晚上还会去拜访一下。
+
+提问者：需要在你们殖民地附近建造新的[[buildingtype BLD_SCANNING_FACILITY]]或[[buildingtype BLD_LIGHTHOUSE]]。
+夜行者：不用了，谢谢。我们自己看得够清楚了。这些点子还是留在白天吧。
+
+提问者：为什么你不愿和我们的[[species SP_SETINON]]与[[species SP_SSLITH]]做朋友？
+夜行者：我们能感觉到他们存在，但太小了，根本不够当食物。所以……刚才的问题是什么来着？
+
+提问者：你们为什么总是戒备森严，摆出防御姿态？
+夜行者：为什么不呢？我们很擅长这个。我们喜欢这样。走开吧，没什么好看的。等我们需要你们的血时，自然会去你们的世界。
+
+提问者：要不要一些[[special SHIMMER_SILK_SPECIAL]]？
+夜行者：把那闪亮的东西留在白天吧，它属于那里。
+
+提问者：这个[[special MIMETIC_ALLOY_SPECIAL]]怎么样？
+夜行者：那是什么？从没听说过。让我看看。没看到什么……哦，它在悄悄移动……现在还微微颤抖……我还没抓住它。给我。
+
+此时本应展示夜行者的外观预览——但毫无意义，因为他们来自黑暗的另一面，任何有机生命体都不需要视觉辅助就能察觉到夜行者已悄然降临……
+'''
+
+SP_FULVER
+福尔弗
+
+SP_FULVER_GAMEPLAY_DESC
+'''预知能力却始终不满的蚂蚁。
+偏好[[PT_TUNDRA]]。
+[[encyclopedia LITHIC_SPECIES_TITLE]]，[[encyclopedia TELEPATHIC_TITLE]]
+'''
+
+SP_FULVER_DESC
+'''生物学：
+福尔弗的外形类似大型神经质的蚂蚁。他们拥有量子计算大脑，能有效预测所有可能的近未来，使他们在战斗中极难被突袭。
+
+名称：
+福尔弗母星上没有其他物种具备这种预知能力。因此，“福尔弗”意为“能看见者”，即能预见其他生命体可能反应的存在。
+
+性格：
+福尔弗倾向于专注于自身力量，更愿意过好每一天。他们常偏好那些能带来最多未来选择的工具与决策。由于记忆力差且无法进行长期未来预测，他们在科学探索和建设防御工事等长期承诺方面表现不佳。因感到选择受限而焦躁不安，始终试图突破自身局限。
+
+离开家园的原因：
+太空所承诺的无限可能性帮助福尔弗集中精神，最终发展出星际航行技术。如今他们已踏上前沿与更远之地，对身后的一切几乎毫不在意。
+
+社会结构：
+对近未来的专注使福尔弗无法建立持久的结构。由于彼此知晓可能的选择并据此反应，他们的社会可被最好地描述为一种非正式的无政府状态。
+'''
+
+INDEPENDENT_COLONY_SHIELD_SPECIAL
+独立行星护盾
+
+INDEPENDENT_COLONY_SHIELD_SPECIAL_DESC
+只要该行星保持独立且有人居住，此效果将确保其[[metertype METER_MAX_SHIELD]]至少达到该特殊能力的容量。在被入侵或人口灭绝时移除。
+
+INDEPENDENT_COLONY_DEFENSE_SPECIAL
+独立行星防御
+
+INDEPENDENT_COLONY_DEFENSE_SPECIAL_DESC
+只要该行星保持独立且有人居住，此效果将确保其[[metertype METER_MAX_DEFENSE]]至少达到该特殊能力的容量。在被入侵或人口灭绝时移除。
+
+INDEPENDENT_COLONY_TROOPS_SPECIAL
+独立行星部队
+
+INDEPENDENT_COLONY_TROOPS_SPECIAL_DESC
+只要该行星保持独立且有人居住，此效果将确保其[[metertype METER_MAX_TROOPS]]至少达到该特殊能力的容量。在被入侵或人口灭绝时移除。
+
+INDEPENDENT_COLONY_POPULATION_SPECIAL
+独立人口
+
+INDEPENDENT_COLONY_POPULATION_SPECIAL_DESC
+只要该行星保持独立且有人居住，此效果将确保其[[metertype METER_TARGET_POPULATION]]至少达到该特殊能力的容量。在被入侵或人口灭绝时移除。
+
+NATIVE_FORTIFICATION_MINIMAL
+最低原住民防御工事
+
+NATIVE_FORTIFICATION_MINIMAL_DESC
+该行星上的原住民建造了最低限度的防御工事，在脱离帝国独立时，可为行星提供更强的防御力以抵御攻击与入侵。
+
+NATIVE_FORTIFICATION_LOW
+基础原住民防御工事
+
+NATIVE_FORTIFICATION_LOW_DESC
+该行星上的原住民建造了基础防御工事，在脱离帝国独立时，可为行星提供更强的防御力以抵御攻击与入侵。
+
+NATIVE_FORTIFICATION_MEDIUM
+中等原住民防御工事
+
+NATIVE_FORTIFICATION_MEDIUM_DESC
+该行星上的原住民建造了中等程度的防御工事，使其在脱离帝国独立时具备更强的防御能力，抵御攻击和入侵。
+
+NATIVE_FORTIFICATION_HIGH
+强大的原住民防御工事
+
+NATIVE_FORTIFICATION_HIGH_DESC
+该行星上的原住民建造了坚固的防御工事，使其在脱离帝国独立时具备更强的防御能力，抵御攻击和入侵。
+
+COMPUTRONIUM_ACCOUNTING_LABEL
+%1% 特殊 <i>计算子月球</i>
+
+ASTEROID_COATING_SPECIAL
+小行星涂层
+
+ASTEROID_COATING_SPECIAL_DESC
+'''在这些小行星上的前哨站或殖民地将为帝国所有 [[encyclopedia HULL_LINE_ASTEROIDS]] 类型的舰船提供 +10% 的结构加成。
+
+这些小行星被跨维度蠕虫感染，它们在岩石中钻洞，留下一种黏性黏液，似乎会自动覆盖整个受影响小行星的表面，防止其碎裂。
+
+将这种黏液应用于由小行星船体建造的舰船时，会自然提升其耐久度。虽然这种黏液不会持久，但这些蠕虫会频繁造访受影响的舰船，在黏液耗尽前重新补充，然后返回家园。由于无法捕获活体样本，科学家推测它们的移动方式与我们的通信系统存在某种关联。'''
+
+ASTEROID_COATING_OWNED_SPECIAL
+小行星涂层（已占领）
+
+ASTEROID_COATING_OWNED_SPECIAL_DESC
+[[ASTEROID_COATING_SPECIAL_DESC]]
+
+RACIAL_PURITY_SENTINEL_SPECIAL
+种族纯正
+
+RACIAL_PURITY_SENTINEL_SPECIAL_DESC
+该帝国实施了 [[policy PLC_RACIAL_PURITY]] 政策。
+
+RACIAL_PURITY_REMNANT_SPECIAL
+种族怨恨
+
+RACIAL_PURITY_REMNANT_SPECIAL_DESC
+该帝国最近放弃了 [[policy PLC_RACIAL_PURITY]] 政策，但民众仍对过去的实施记忆犹新。该政策对帝国各行星 [[metertype METER_HAPPINESS]] 的负面影响将随时间逐渐消退。
+
+DERELICT_SPECIAL4
+废弃步兵
+
+SUCCULENT_BARNACLES_SPECIAL
+多汁藤壶
+
+SUCCULENT_BARNACLES_SPECIAL_DESC
+'''该行星上栖息着可采集并出口的多汁藤壶群体。
+
+[[LUXURY_SPECIAL]]'''
+
+SUCCULENT_BARNACLES_SPECIAL_IMPORTS
+进口 [[SUCCULENT_BARNACLES_SPECIAL]]
+
+FRACTAL_GEODES_SPECIAL
+分形晶洞
+
+FRACTAL_GEODES_SPECIAL_DESC
+'''该行星散布着闪亮的分形晶洞，可采集并出口。
+
+[[LUXURY_SPECIAL]]'''
+
+FRACTAL_GEODES_SPECIAL_IMPORTS
+进口 [[FRACTAL_GEODES_SPECIAL]]
+
+SHIMMER_SILK_SPECIAL
+闪烁丝
+
+SHIMMER_SILK_SPECIAL_SPECIAL_DESC
+'''这颗行星会析出薄片状的精致闪亮丝质材料，可采集并出口。
+
+[[LUXURY_SPECIAL]]'''
+
+SHIMMER_SILK_SPECIAL_IMPORTS
+进口 [[SHIMMER_SILK_SPECIAL]]
+
+SPARK_FOSSILS_SPECIAL
+火花化石
+
+SPARK_FOSSILS_SPECIAL_DESC
+'''这颗行星的外层地壳散布着透明晶体化的化石生物，触碰时会发出电火花，可提取并出口。
+
+[[LUXURY_SPECIAL]]'''
+
+SPARK_FOSSILS_SPECIAL_IMPORTS
+进口 [[SPARK_FOSSILS_SPECIAL]]
+
+MIMETIC_ALLOY_SPECIAL
+拟态合金
+
+MIMETIC_ALLOY_SPECIAL_DESC
+'''这颗行星表面有拟态合金池，其形态会随附近物体的形状而改变，可装瓶出口。
+
+[[LUXURY_SPECIAL]]'''
+
+MIMETIC_ALLOY_SPECIAL_IMPORTS
+进口 [[MIMETIC_ALLOY_SPECIAL]]
+
+LUXURY_SPECIAL
+'''当焦点设置为 [[encyclopedia INFLUENCE_FOCUS_TITLE]] 时，此行星的 [[metertype METER_TARGET_INFLUENCE]] 增加 [[value SPECIAL_INFLUENCE_FOCUS_BONUS]]。
+当帝国采纳 [[policy PLC_CAPITAL_MARKETS]] 或 [[policy PLC_BLACK_MARKET]] 政策时，提供额外加成。'''
+
+STARLANE_DRIVE_ACTIVATED_SPECIAL
+脚本辅助
+
+STARLANE_DRIVE_ACTIVATED_SPECIAL_DESC
+一种你永远不会看到的特殊效果，由内容脚本内部使用。
+
+FOCUS_GROWTH_DESC
+从该行星出口增长资源
+
+FOCUS_INDUSTRY_DESC
+产生更多的工业产出
+
+FOCUS_RESEARCH_DESC
+产生更多的研究产出
+
+FOCUS_INFLUENCE
+影响力
+
+FOCUS_INFLUENCE_DESC
+产生更多的影响力
+
+FOCUS_LOGISTICS_DESC
+延长补给线
+
+FOCUS_STEALTH_DESC
+提升行星的隐匿性
+
+INVALID_FLEET_AGGRESSION
+未知舰队侵略性
+
+FLEET_AGGRESSIVE
+主动发起战斗
+
+FLEET_OBSTRUCTIVE
+阻碍通行
+
+FLEET_DEFENSIVE
+防御性隐藏
+
+FLEET_PASSIVE
+被动隐藏
+
+METER_TARGET_INFLUENCE
+目标影响力
+
+METER_INFLUENCE
+影响力
+
+ECONOMIC_CATEGORY_NUM_POLICY_SLOTS
+经济政策槽位
+
+SOCIAL_CATEGORY_NUM_POLICY_SLOTS
+社会政策槽位
+
+MILITARY_CATEGORY_NUM_POLICY_SLOTS
+军事政策槽位
+
+UIT_POLICY
+政策
+
+RE_INFLUENCE
+影响力
+
+PC_INFLUENCE
+影响力
+
+HULL_LINE_SPATIAL_FLUX
+舰体系列：空间流
+
+HULL_LINE_SPATIAL_FLUX_DESC
+专为运行于空间流而设计的舰体系列。不如大多数舰体模块化
+
+DESC_VAR_TARGETINFLUENCE
+[[METER_TARGET_INFLUENCE]]
+
+DESC_VAR_INFLUENCE
+[[METER_INFLUENCE]]
+
+DESC_VAR_INFLUENCESTOCKPILE
+影响力储备
+
+DESC_VAR_INFLUENCEOUTPUT
+影响力产出
+
+DESC_VAR_TURNSSINCEFOCUSCHANGE
+自焦点变更以来的回合数
+
+DESC_VAR_TURNSSINCEANNEXATION
+自吞并以来的回合数
+
+DESC_VAR_TURNSSINCECOLONIZATION
+自殖民以来的回合数
+
+DESC_VAR_TURNSSINCELASTCONQUERED
+被征服以来的回合数
+
+DESC_VAR_PREVIOUSTOFINALDESTINATIONID
+上一个最终目的地ID
+
+DESC_VAR_ARRIVALSTARLANEID
+抵达星际航道ID
+
+DESC_VAR_LASTTURNMOVEORDERED
+上次下达移动指令的回合ID
+
+DESC_VAR_LASTTURNATTACKEDBYSHIP
+上次被舰船攻击的回合
+
+DESC_VAR_LASTTURNCOLONIZED
+上次殖民的回合
+
+DESC_VAR_LASTTURNCONQUERED
+上次被征服的回合
+
+DESC_VAR_LASTTURNANNEXED
+上次被吞并的回合
+
+DESC_VAR_ORDEREDGIVENTOEMPIRE
+分配给帝国的指令
+
+DESC_VAR_OWNERBEFORELASTCONQUERED
+上次被征服前的所有者
+
+DESC_VAR_LASTINVADEDBYEMPIRE
+上次被帝国入侵的回合
+
+DESC_VAR_LASTCOLONIZEDBYEMPIRE
+上次被帝国殖民的回合
+
+DESC_VAR_JUMPSBETWEEN
+包含ID为%1%和%2%的物体的星系之间的星际航道跳跃次数
+
+DESC_VAR_STATISTIC
+统计
+
+DESC_VAR_IF
+0，或如果有任何物体则为1%2%
+
+DESC_VAR_COUNT
+物体的数量%2%
+
+DESC_VAR_UNIQUE_COUNT
+物体%1%的唯一数量%2%
+
+DESC_VAR_HISTO_MAX
+物体%2%中最常见%1%的数量
+
+DESC_VAR_HISTO_MIN
+物体%2%中最不常见%1%的数量
+
+DESC_VAR_HISTO_SPREAD
+物体%2%中最多见%1%与最少见%1%的数量差
+
+DESC_VAR_SUM
+对象%2%的总和%1%
+
+DESC_VAR_MEAN
+对象%2%的平均值%1%
+
+DESC_VAR_RMS
+对象%2%的均方根%1%
+
+DESC_VAR_MODE
+对象%2%的众数%1%
+
+DESC_VAR_MAX
+对象%2%的最大值%1%
+
+DESC_VAR_MIN
+对象%2%的最小值%1%
+
+DESC_VAR_SPREAD
+对象%2%的分布范围%1%
+
+DESC_VAR_STDEV
+对象%2%的标准差%1%
+
+DESC_VAR_PRODUCT
+对象%2%的乘积%1%
+
+DESC_NOOP
+(无操作)
+
+DESC_EMPIRE_HAS_ADOPTED_POLICY
+'''属于已采纳%1%的帝国'''
+
+DESC_EMPIRE_HAS_ADOPTED_POLICY_NOT
+'''属于未采纳%1%的帝国'''
+
+DESC_FIELD
+'''属于%1%场'''
+
+DESC_FIELD_NOT
+'''不属于%1%场'''
+
+DESC_SPECIES_LIKES
+'''当物种%1%喜欢%2%时'''
+
+DESC_SPECIES_LIKES_NOT
+'''当物种%1%不喜欢%2%时'''
+
+DESC_SPECIES_DISLIKES
+'''当物种%1%不喜欢%2%时'''
+
+DESC_SPECIES_DISLIKES_NOT
+'''当物种%1%不讨厌%2%时'''
+
+DESC_VISIBLE_TO_EMPIRE_SINCE_TURN
+'''自第%2%回合起，对%1%帝国的可见度达到或高于%3%的星系'''
+
+DESC_VISIBLE_TO_EMPIRE_SINCE_TURN_NOT
+'''自第%2%回合起，对%1%帝国的可见度未达到%3%或更高的星系'''
+
+DESC_ANY_EMPIRE
+任意帝国
+
+DESC_HAS_STARLANE_TO
+''' 与任意目标对象%1%的位置之间存在星际航道的'''
+
+DESC_HAS_STARLANE_TO_NOT
+''' 与任意目标对象%1%的位置之间不存在星际航道的'''
+
+DESC_STARLANE_TO_WOULD_CROSS_EXISTING_LANE
+''' 若在该位置与任意目标对象%1%之间添加星际航道，将会与现有星际航道相交的'''
+
+DESC_STARLANE_TO_WOULD_CROSS_EXISTING_LANE_NOT
+''' 若在该位置与任意目标对象%1%之间添加星际航道，不会与现有星际航道相交的'''
+
+DESC_STARLANE_TO_WOULD_BE_ANGULARLY_CLOSE
+''' 与任意目标对象%1%之间新建的星际航道在任一端点处与现有星际航道夹角过小（点积 > %2%）的'''
+
+DESC_STARLANE_TO_WOULD_BE_ANGULARLY_CLOSE_NOT
+''' 与任意目标对象%1%之间新建的星际航道在任一端点处与现有星际航道夹角不过小（点积 > %2%）的'''
+
+DESC_STARLANE_TO_WOULD_BE_CLOSE
+''' 从满足条件%1%的对象出发，新建的星际航道距离对象%3%小于%2%的'''
+
+DESC_STARLANE_TO_WOULD_BE_CLOSE_NOT
+''' 从满足条件%1%的对象出发，新建的星际航道距离对象%3%不小于%2%的'''
+
+DESC_ORDERED_ANNEXED
+''' 正在被吞并的'''
+
+DESC_ORDERED_ANNEXED_NOT
+''' 未被吞并的'''
+
+DESC_LOCATION
+''' 符合%1% %2%的位置条件的'''
+
+DESC_LOCATION_NOT
+''' 不符合%1% %2%的位置条件的'''
+
+DESC_COMBAT_TARGET
+''' 符合%1% %2%的战斗目标条件的'''
+
+DESC_COMBAT_TARGET_NOT
+''' 不符合%1% %2%的战斗目标条件的'''
+
+DESC_AND_BEFORE_OPERANDS
+''' ['''
+
+
+DESC_AND_AFTER_OPERANDS
+''' ]'''
+
+
+DESC_AND_BEFORE_SINGLE_OPERAND
+''''''
+
+
+DESC_AND_AFTER_SINGLE_OPERAND
+''''''
+
+
+DESC_NOT_AND_BEFORE_OPERANDS
+[[DESC_NOT_OR_BEFORE_OPERANDS]]
+
+DESC_NOT_AND_BETWEEN_OPERANDS
+[[DESC_NOT_OR_BETWEEN_OPERANDS]]
+
+DESC_NOT_AND_AFTER_OPERANDS
+[[DESC_NOT_OR_AFTER_OPERANDS]]
+
+DESC_NOT_AND_BEFORE_SINGLE_OPERAND
+[[DESC_OR_BEFORE_SINGLE_OPERAND]]
+
+DESC_NOT_AND_AFTER_SINGLE_OPERAND
+[[DESC_OR_AFTER_SINGLE_OPERAND]]
+
+DESC_OR_BEFORE_OPERANDS
+'''（任一）'''
+
+DESC_OR_AFTER_OPERANDS
+''' )'''
+
+
+DESC_OR_BEFORE_SINGLE_OPERAND
+''''''
+
+
+DESC_OR_AFTER_SINGLE_OPERAND
+''''''
+
+
+DESC_NOT_OR_BEFORE_OPERANDS
+[[DESC_AND_BEFORE_OPERANDS]]
+
+DESC_NOT_OR_BETWEEN_OPERANDS
+[[DESC_AND_BETWEEN_OPERANDS]]
+
+DESC_NOT_OR_AFTER_OPERANDS
+[[DESC_AND_AFTER_OPERANDS]]
+
+DESC_NOT_OR_BEFORE_SINGLE_OPERAND
+[[DESC_AND_BEFORE_SINGLE_OPERAND]]
+
+DESC_NOT_OR_AFTER_SINGLE_OPERAND
+[[DESC_AND_AFTER_SINGLE_OPERAND]]
+
+DESC_ORDERED_ALTERNATIVES_BEFORE_OPERANDS
+满足第一个匹配条件 {
+
+DESC_ORDERED_ALTERNATIVES_BETWEEN_OPERANDS
+, 否则
+
+DESC_ORDERED_ALTERNATIVES_AFTER_OPERANDS
+''' }'''
+
+
+DESC_ORDERED_ALTERNATIVES_BEFORE_SINGLE_OPERAND
+{
+
+DESC_ORDERED_ALTERNATIVES_AFTER_SINGLE_OPERAND
+(如果它也存在不匹配项)}
+
+DESC_NOT_ORDERED_ALTERNATIVES_BEFORE_OPERANDS
+满足第一个匹配条件的非匹配候选对象：{
+
+DESC_NOT_ORDERED_ALTERNATIVES_BETWEEN_OPERANDS
+, 否则
+
+DESC_NOT_ORDERED_ALTERNATIVES_AFTER_OPERANDS
+''' }'''
+
+
+DESC_NOT_ORDERED_ALTERNATIVES_BEFORE_SINGLE_OPERAND
+{
+
+DESC_NOT_ORDERED_ALTERNATIVES_AFTER_SINGLE_OPERAND
+(如果它也存在不匹配项)}
+
+DESC_UNIQUE_OF
+''' 是 %1% 个具有不同 %2% 和 %3% 值的对象之一'''
+
+DESC_UNIQUE_OF_NOT
+''' 不是 %1% 个具有不同 %2% 和 %3% 值的对象之一'''
+
+DESC_ON_PLANET
+''' 位于 ID 为 %1% 的行星上'''
+
+DESC_ON_PLANET_NOT
+''' 不位于 ID 为 %1% 的行星上'''
+
+DESC_ON_PLANET_SIMPLE
+''' 位于某颗行星上'''
+
+DESC_ON_PLANET_SIMPLE_NOT
+''' 不位于任何行星上'''
+
+PLC_NO_GROWTH
+无增长
+
+PLC_NO_GROWTH_DESC
+阻止行星在回合之间增加人口。
+
+PLC_NO_GROWTH_SHORT_DESC
+阻止行星增长
+
+PLC_POPULATION
+人口
+
+PLC_POPULATION_DESC
+将自然人口增长速率提高50%。
+
+PLC_POPULATION_SHORT_DESC
+提高增长速率
+
+PLC_NO_SUPPLY
+无补给
+
+PLC_NO_SUPPLY_DESC
+'''• 阻止行星生成补给网络。
+• 提升行星和建筑的隐匿性，加成值为[[value NO_SUPPLY_STEALTH_BOOST]]。'''
+
+PLC_NO_SUPPLY_SHORT_DESC
+阻止补给传播，提升隐匿性
+
+PLC_CENTRALIZATION
+中央集权
+
+PLC_CENTRALIZATION_DESC
+'''提升首都的生产输出，无论焦点为何：
+• 每[[metertype METER_POPULATION]]人口增加[[value PLC_CENTRALIZATION_TARGET_RESEARCH_PERPOP]]的[[metertype METER_TARGET_RESEARCH]]，乘以当前稳定性超出[[value PLC_CENTRALIZATION_MIN_STABILITY]]的部分，最高可达[[value PLC_CENTRALIZATION_MAX_STABILITY]]稳定性时的上限。
+• 每[[metertype METER_POPULATION]]人口增加[[value PLC_CENTRALIZATION_TARGET_INDUSTRY_PERPOP]]的[[metertype METER_TARGET_INDUSTRY]]，乘以当前稳定性超出[[value PLC_CENTRALIZATION_MIN_STABILITY]]的部分，最高可达[[value PLC_CENTRALIZATION_MAX_STABILITY]]稳定性时的上限。
+• 固定增加[[value PLC_CENTRALIZATION_TARGET_CONSTRUCTION_FLAT]]的[[metertype METER_TARGET_CONSTRUCTION]]。
+此效果需要至少[[value PLC_CENTRALIZATION_MIN_STABILITY]]的稳定性。
+
+然而，它也会降低所有殖民地的[[metertype METER_STOCKPILE]]（减少[[value PLC_CENTRALIZATION_MAX_STOCKPILE_FLAT]]）、[[metertype METER_SUPPLY]]范围（减少[[value PLC_CENTRALIZATION_MAX_SUPPLY_FLAT]]），并提高帝国殖民地的[[metertype METER_INFLUENCE]]成本：
+• 与首都相连的[[metertype METER_SUPPLY]]殖民地，每距离首都一跳，[[metertype METER_INFLUENCE]]成本增加[[value PLC_CENTRALIZATION_TARGET_INFLUENCE_PERJUMP]]，上限为[[value PLC_CENTRALIZATION_TARGET_INFLUENCE_MAX]]。
+• 未与首都建立[[metertype METER_SUPPLY]]连接的殖民地，将承受最大惩罚（[[value PLC_CENTRALIZATION_TARGET_INFLUENCE_MAX]]）。
+此外，殖民舰部件的成本增加33%。
+
+整个帝国的后勤资源集中于提升首都的生产，将大部分社会与物质资源调往首都。这导致殖民地产生不满，从而提高[[metertype METER_INFLUENCE]]成本。'''
+
+PLC_CENTRALIZATION_SHORT_DESC
+强化首都
+
+PLC_METROPOLES
+大都会
+
+PLC_METROPOLES_DESC
+'''提升最多[[value METROPOLES_PLANET_LIMIT]]颗行星的产出，但不超过帝国已有人口行星总数的1 / [[value METROPOLES_MIN_PLANETS]]。要获得加成，行星必须满足至少[[value METROPOLES_MINIMUM_POPULATION]]的人口和至少[[value METROPOLES_MIN_STABILITY]]的幸福度。
+在符合条件的行星中，人口最多的行星将获得以下加成（无论焦点为何）：
+• 每人口增加[[value METROPOLES_TARGET_RESEARCH_PERPOP]]的[[metertype METER_TARGET_RESEARCH]]。
+• 每人口增加[[value METROPOLES_TARGET_INDUSTRY_PERPOP]]的[[metertype METER_TARGET_INDUSTRY]]。
+• 固定增加[[value METROPOLES_TARGET_CONSTRUCTION_FLAT]]的[[metertype METER_TARGET_CONSTRUCTION]]。
+• 固定增加[[value METROPOLES_MAX_SUPPLY_FLAT]]的[[metertype METER_MAX_SUPPLY]]。
+但同时也会带来惩罚：
+• 减少[[metertype METER_MAX_STOCKPILE]] [[value METROPOLES_MAX_STOCKPILE_FLAT]]。
+
+此外，其他行星（人口低于最高人口行星，包括人口少于[[value METROPOLES_MINIMUM_POPULATION]]或幸福度低于[[value METROPOLES_MIN_STABILITY]]的行星）将受到惩罚：
+• 减少[[metertype METER_TARGET_HAPPINESS]] [[value METROPOLES_STABILITY_PENALTY]]。'''
+
+PLC_METROPOLES_SHORT_DESC
+强化最大人口行星
+
+PLC_COLONIZATION
+殖民
+
+PLC_COLONIZATION_DESC
+'''• 殖民舰部件、前哨舰部件和殖民建筑的成本降低33%。
+• 为携带殖民部件但无武器、部队、轰炸或通用部件的舰船增加1点基础燃料容量。'''
+
+PLC_COLONIZATION_SHORT_DESC
+殖民折扣
+
+PLC_CONTINUOUS_SCANNING
+持续扫描
+
+PLC_CONTINUOUS_SCANNING_DESC
+'''• 将舰船探测范围增加[[value CONTINUOUS_SCANNING_RANGE_BOOST]]。
+• 每回合采用此政策，帝国探测强度增加1点，最高可达[[value CONTINUOUS_SCANNING_MAX_DETECTION_BOOST]]。
+• 将舰船隐匿性降低[[value CONTINUOUS_SCANNING_STEALTH_PENALTY]]。'''
+
+PLC_CONTINUOUS_SCANNING_SHORT_DESC
+提升探测能力，削弱隐匿性
+
+PLC_EXPLORATION
+探索
+
+PLC_EXPLORATION_DESC
+'''• 使未装备武器、战斗机、护盾、装甲、部队、殖民舱、轰炸、研究、工业、影响力、生产或通用部件的舰船速度提升 [[value PLC_EXPLORATION_SPEED_BONUS]] uu。允许装备探测、燃料和引擎部件。
+• 每当一个星系首次被探索时，该星系内的舰船每回合总共产生 [[value EXPLORATION_RESEARCH_BONUS_TOTAL]] 点研究点数。'''
+
+PLC_EXPLORATION_SHORT_DESC
+提升探索舰船速度
+
+PLC_MARINE_RECRUITMENT
+海军招募
+
+PLC_MARINE_RECRUITMENT_DESC
+'''• 将地面部队舰船部件的成本降低 50%。
+• 将行星部队再生速率提升 [[value PLC_MARINE_RECRUITMENT_TROOP_GROWTH_FLAT]]。
+• 消除前哨站的部队惩罚。'''
+
+PLC_MARINE_RECRUITMENT_SHORT_DESC
+降低地面部队成本
+
+PLC_DESIGN_SIMPLICITY
+设计简化
+
+PLC_DESIGN_SIMPLICITY_DESC
+对于包含 6 个或更少部件的舰船设计，生产成本降低 20%。
+
+PLC_DESIGN_SIMPLICITY_SHORT_DESC
+降低简单设计的成本
+
+PLC_PSYONIC_SHIELDS
+心灵护盾
+
+PLC_PSYONIC_SHIELDS_DESC
+'''在拥有心灵感应种族的行星上，最大护盾值增加 20。
+在搭载心灵感应种族的舰船上，最大护盾值增加 2。'''
+
+PLC_PSYONIC_SHIELDS_SHORT_DESC
+生成护盾
+
+PLC_STOCKPILE_LIQUIDATION
+库存清算
+
+PLC_STOCKPILE_LIQUIDATION_DESC
+使以库存分配为重点的行星对 [[encyclopedia STOCKPILE_TITLE]] 使用上限的贡献翻倍。
+
+PLC_STOCKPILE_LIQUIDATION_SHORT_DESC
+提高库存使用上限
+
+PLC_ALLIED_REPAIR
+盟友维修
+
+PLC_ALLIED_REPAIR_DESC
+若两个帝国结盟，且其中一方采纳了此政策，则双方在彼此的 [[buildingtype BLD_SHIPYARD_ORBITAL_DRYDOCK]] 或通过 [[tech SHP_FLEET_REPAIR]] 技术时，均可获得受损舰船的维修。
+
+PLC_ALLIED_REPAIR_SHORT_DESC
+允许盟友维修舰船
+
+PLC_MODERATION
+节制
+
+PLC_MODERATION_DESC
+'''• 为帝国首都的影响力产出和稳定性提供奖励，当帝国中最常用的专注设置使用频率较低时，奖励更大。其他专注设置的使用频率对此奖励无影响；仅使用最常用专注设置的行星数量与总拥有的行星数量决定该奖励。
+
+未选择专注设置的前哨站也视为一种专注设置，可能成为最受欢迎的设置，从而使得获得高额奖励变得困难。
+
+稳定性奖励等于 [[value PLC_MODERATION_STABILITY_SCALING]] 乘以比率：(( 拥有行星数 / 最常用专注设置的使用次数 ) - 1)
+影响力奖励等于 [[value PLC_MODERATION_INFLUENCE_SCALING]] 乘以比率：(( 拥有行星数 / 最常用专注设置的使用次数 ) - 1)'''
+
+PLC_MODERATION_SHORT_DESC
+提升首都影响力与稳定性
+
+PLC_ENVIRONMENTALISM
+环保主义
+
+PLC_ENVIRONMENTALISM_DESC
+'''• 对已改造或环境已改变的行星，减少 [[metertype METER_CONSTRUCTION]] [[value PLC_ENVIRONMENTALISM_TARGET_CONSTRUCTION_TERRAFORMED_FLAT]]，减少 [[metertype METER_TARGET_HAPPINESS]] [[value PLC_ENVIRONMENTALISM_TARGET_HAPPINESS_FLAT]]，减少 [[metertype METER_TARGET_INFLUENCE]] [[value PLC_ENVIRONMENTALISM_TARGET_INFLUENCE_FLAT]]。
+• 对已开发的行星，减少 [[metertype METER_TARGET_INDUSTRY]] [[value PLC_ENVIRONMENTALISM_TARGET_INDUSTRY_FLAT]] 和 [[metertype METER_CONSTRUCTION]] [[value PLC_ENVIRONMENTALISM_TARGET_CONSTRUCTION_FLAT]]。
+• 对未改造、无建筑且非工业导向的行星，提升 [[metertype METER_TARGET_HAPPINESS]] [[value PLC_ENVIRONMENTALISM_TARGET_HAPPINESS_ORIGINAL_FLAT]]，提升 [[metertype METER_TARGET_INFLUENCE]] [[value PLC_ENVIRONMENTALISM_TARGET_INFLUENCE_ORIGINAL_FLAT]]，提升 [[metertype METER_TARGET_RESEARCH]] [[value PLC_ENVIRONMENTALISM_TARGET_RESEARCH_ORIGINAL_FLAT]]，提升 [[metertype METER_STEALTH]] [[value PLC_ENVIRONMENTALISM_STEALTH_ORIGINAL_FLAT]]。
+• 使行星改造成本变为原来的3倍。'''
+
+PLC_ENVIRONMENTALISM_SHORT_DESC
+未改造行星的奖励
+
+PLC_TERRAFORMING
+行星改造
+
+PLC_TERRAFORMING_DESC
+'''• 缩短在行星上进行改造项目所需的最短时间。项目需通过 [[tech GRO_TERRAFORM]] 解锁。
+• 每将行星改造一步远离其原始类型，改造后的行星 [[metertype METER_TARGET_HAPPINESS]] 提升 [[value PLC_TERRAFORMING_TARGET_HAPPINESS_ORIGINAL_FLAT]]。
+• 每将行星改造一步远离其原始类型，设定为 [[encyclopedia INFLUENCE_FOCUS_TITLE]] 的行星 [[metertype METER_TARGET_INFLUENCE]] 提升 [[value PLC_TERRAFORMING_TARGET_INFLUENCE_ORIGINAL_FLAT]]。
+• 每将行星改造一步远离其原始类型，设定为 [[encyclopedia RESEARCH_FOCUS_TITLE]] 的行星 [[metertype METER_TARGET_RESEARCH]] 提升 √[[metertype METER_POPULATION]] × [[value PLC_TERRAFORMING_TARGET_RESEARCH_SCALING]]。
+人工行星无论当前环境如何，均视为已改造 [[value PLC_TERRAFORMING_ARTIFICIAL_PLANET_DISTANCE]] 步。'''
+
+PLC_TERRAFORMING_SHORT_DESC
+加速行星改造
+
+PLC_INDUSTRIALISM
+工业主义
+
+PLC_INDUSTRIALISM_DESC
+'''以工业为导向的行星获得 [[metertype METER_TARGET_INDUSTRY]] [[value PLC_INDUSTRIALISM_TARGET_INDUSTRY_PERCENT]]% 的提升，并额外获得 [[value PLC_INDUSTRIALISM_TARGET_HAPPINESS_FLAT]] 的 [[metertype METER_HAPPINESS]] 奖励。
+生产加成需要至少 [[value PLC_INDUSTRIALISM_MIN_STABILITY]] 的稳定性。
+
+使生产增强型能源科技的研究成本降低：[[tech PRO_ORBITAL_GEN]]、[[tech PRO_SOL_ORB_GEN]]、[[tech PRO_FUSION_GEN]]、[[tech PRO_SINGULAR_GEN]]、[[tech PRO_ZERO_GEN]]'''
+
+PLC_INDUSTRIALISM_SHORT_DESC
+提升工业产出
+
+PLC_TECHNOCRACY
+技术官僚制
+
+PLC_TECHNOCRACY_DESC
+'''以研究为导向的行星获得 [[metertype METER_TARGET_RESEARCH]] [[value PLC_TECHNOCRACY_TARGET_RESEARCH_PERCENT]]% 的提升，并额外获得 [[value PLC_TECHNOCRACY_TARGET_HAPPINESS_FLAT]] 的 [[metertype METER_HAPPINESS]] 奖励。
+研究加成需要至少 [[value PLC_TECHNOCRACY_MIN_STABILITY]] 的稳定性。'''
+
+PLC_TECHNOCRACY_SHORT_DESC
+提升研究产出
+
+PLC_CHECKPOINTS
+边境检查站
+
+PLC_CHECKPOINTS_DESC
+'''• 对帝国以外的舰船在 [[metertype METER_SUPPLY]] 内的 [[metertype METER_STEALTH]] 最多减少 [[value PLC_CHECKPOINTS_MAX_STEALTH_MALUS]]。
+• 减少量随该政策实施回合数增加，每回合减少 1 点 [[metertype METER_STEALTH]]，最多减少 [[value PLC_CHECKPOINTS_MAX_STEALTH_MALUS]]。
+• 对帝国拥有的已开发行星，减少 [[metertype METER_TARGET_INFLUENCE]] [[value PLC_CHECKPOINTS_TARGET_INFLUENCE_FLAT]]。'''
+
+PLC_CHECKPOINTS_SHORT_DESC
+提升侦测能力 / 损耗影响力
+
+PLC_DIVERSITY
+多样性
+
+PLC_DIVERSITY_DESC
+'''• 根据帝国中物种数量，给予研究、稳定性和首都影响力方面的奖励或惩罚。
+• 研究奖励需要 [[encyclopedia RESEARCH_FOCUS_TITLE]] 且稳定性不低于 [[value PLC_DIVERSITY_MIN_STABILITY]]。
+• 所有奖励或惩罚均按超出或低于 [[value PLC_DIVERSITY_THRESHOLD]] 物种数量的每种物种 [[value PLC_DIVERSITY_SCALING]] 计算。'''
+
+PLC_DIVERSITY_SHORT_DESC
+提升研究、稳定性和影响力
+
+PLC_ENGINEERING
+工程兵
+
+PLC_ENGINEERING_DESC
+将舰船的“维护”成本减半，使舰队规模扩大时舰船生产成本增长变缓，但每艘舰船每回合需支付 [[value PLC_ENGINEERING_TARGET_INFLUENCE_FLAT]] 点影响力。
+
+PLC_ENGINEERING_SHORT_DESC
+降低舰队维护/成本影响
+
+PLC_EXOBOT_PRODUCTIVITY
+外星机器人生产力
+
+PLC_EXOBOT_PRODUCTIVITY_DESC
+'''提升工业导向世界上的有效外星机器人生产输出，从极差提升至较差。
+
+降低非外星机器人居住行星在设定为[[encyclopedia INDUSTRY_FOCUS_TITLE]]时的稳定性和生产输出，惩罚值为[[value PLC_EXOBOT_OTHER_PLANET_INDUSTRY_PENALTY]]。'''
+
+PLC_EXOBOT_PRODUCTIVITY_SHORT_DESC
+提升外星机器人生产
+
+PLC_CONFEDERATION
+联邦制
+
+PLC_CONFEDERATION_DESC
+'''帝国的行星被组织为独立星系的联邦。
+
+• 移除殖民地与[[buildingtype BLD_IMPERIAL_PALACE]]断开连接时的[[metertype METER_TARGET_INFLUENCE]]惩罚（大多数物种的基础惩罚）
+• 移除殖民地与[[buildingtype BLD_IMPERIAL_PALACE]]及[[buildingtype BLD_REGIONAL_ADMIN]]断开连接时的[[metertype METER_TARGET_HAPPINESS]]惩罚（大多数物种的基础惩罚）
+• 所有行星的[[metertype METER_TARGET_HAPPINESS]]降低[[value PLC_CONFEDERATION_TARGET_HAPPINESS_FLAT]]
+• [[metertype METER_MAX_TROOPS]]增加[[value PLC_CONFEDERATION_MAX_TROOPS_FLAT]]'''
+
+PLC_CONFEDERATION_SHORT_DESC
+支持孤立星系
+
+PLC_RACIAL_PURITY
+种族纯正
+
+PLC_RACIAL_PURITY_DESC
+'''帝国首都行星上的物种在帝国中对所有其他物种拥有主导权。这对单一物种帝国尤其有利，尤其是当该物种为[[encyclopedia XENOPHOBIC_SPECIES_TITLE]]时，但会对其他物种施加惩罚。
+
+拥有首都物种的行星将获得多种增益：
+• 随时间提升[[metertype METER_TARGET_HAPPINESS]]。自采纳该政策后，每回合增长[[value PLC_RACIAL_PURITY_STABILITY_PER_TURN]]，最高可达[[value PLC_RACIAL_PURITY_TARGET_STABILITY_SELF]]。
+• 提升[[metertype METER_TARGET_INFLUENCE]]，增幅为[[value PLC_RACIAL_PURITY_TARGET_INFLUENCE_SELF]]。
+• 若首都物种具有排外性，则消除该物种与其他已占行星之间的排外骚扰与狂热。
+
+拥有不同于[[species SP_EXOBOT]]或首都物种的行星将受到多种惩罚：
+• [[metertype METER_TARGET_HAPPINESS]]降低[[value PLC_RACIAL_PURITY_TARGET_STABILITY_OTHER]]
+• [[metertype METER_TARGET_INFLUENCE]]降低[[value PLC_RACIAL_PURITY_TARGET_INFLUENCE_OTHER]]
+• 禁用[[encyclopedia INFLUENCE_FOCUS_TITLE]]与[[encyclopedia RESEARCH_FOCUS_TITLE]]
+
+压迫政策还允许帝国强迫其他物种更努力工作，使其[[metertype METER_TARGET_INDUSTRY]]每[[metertype METER_POPULATION]]增加[[value PLC_RACIAL_PURITY_TARGET_INDUSTRY_OTHER]]。
+
+允许生产[[buildingtype BLD_CONC_CAMP]]。'''
+
+PLC_RACIAL_PURITY_SHORT_DESC
+偏好首都物种
+
+PLC_DIVINE_AUTHORITY
+神权统治
+
+PLC_DIVINE_AUTHORITY_DESC
+'''提升[[metertype METER_TARGET_HAPPINESS]] [[value PLC_DIVINE_AUTHORITY_TARGET_HAPPINESS_FLAT]] 和 [[metertype METER_TARGET_INFLUENCE]] [[value PLC_DIVINE_AUTHORITY_TARGET_INFLUENCE_FLAT]]，但降低[[metertype METER_TARGET_RESEARCH]] [[value PLC_DIVINE_AUTHORITY_TARGET_RESEARCH_FLAT]]。
+影响增益需要至少[[value PLC_DIVINE_AUTHORITY_MIN_STABILITY]]的稳定性。
+
+帝国由神权政体统治，宣称拥有神授权威。他们宣称全知全能且永不犯错，激励帝国人民相信自己是被选中的民族。宗教极端主义在民众中被鼓励，增强对政府命令的信心并稳定社会，但阻碍批判性思维与基于证据的科学发展。'''
+
+PLC_DIVINE_AUTHORITY_SHORT_DESC
+提升稳定与影响力，但削弱研究
+
+PLC_NATIVE_APPROPRIATION
+本土掠夺
+
+PLC_NATIVE_APPROPRIATION_DESC
+在包含未被占领的原住民行星的星系中，提升研究导向行星的[[metertype METER_TARGET_RESEARCH]]，增幅为[[value PLC_NATIVE_APPROPRIATION_RESEARCH_PERPLANET]]。
+
+PLC_NATIVE_APPROPRIATION_SHORT_DESC
+提升研究
+
+PLC_VASSALIZATION
+附庸化
+
+PLC_VASSALIZATION_DESC
+'''在包含未被占领行星且其物种与帝国首都及影响导向行星不同的星系中，影响导向行星的[[metertype METER_TARGET_INFLUENCE]]将提升[[value PLC_VASSALIZATION_INFLUENCE_SCALING]]倍于这些未被占领行星总人口的平方根。
+
+[[species SP_ANCIENT_GUARDIANS]]无法被附庸化。'''
+
+PLC_VASSALIZATION_SHORT_DESC
+中立行星提升影响力
+
+PLC_COLONIALISM
+殖民主义
+
+PLC_COLONIALISM_DESC
+使专注于工业的行星的[[metertype METER_TARGET_INDUSTRY]]提升，提升幅度等于其附近未归属行星的工业产出。提供贡献的未归属行星必须与接收行星处于补给连接状态，且在3条星际航道跳跃范围内，且未被任何帝国拥有。多个接收行星将平均分配所获取的工业值。
+
+PLC_COLONIALISM_SHORT_DESC
+从未归属行星收集工业
+
+PLC_FEUDALISM
+封建制度
+
+PLC_FEUDALISM_DESC
+使位于包含同种物种未归属行星的星系中的专注工业行星的[[metertype METER_TARGET_INDUSTRY]]提升，提升幅度为这些未归属行星总人口的平方根乘以[[value PLC_FEUDALISM_DESC_INDUSTRY_SCALING]]。
+
+PLC_FEUDALISM_SHORT_DESC
+未归属行星提升工业
+
+PLC_THE_HUNT
+猎杀
+
+PLC_THE_HUNT_DESC
+在同时包含一个未归属且已有人口的行星的星系中，对行星的[[metertype METER_TARGET_HAPPINESS]]提升[[value PLC_THE_HUNT_HAPPINESS_FLAT]]，[[metertype METER_TARGET_INFLUENCE]]提升[[value PLC_THE_HUNT_INFLUENCE_FLAT]]，[[metertype METER_MAX_TROOPS]]提升[[value PLC_THE_HUNT_TROOPS_MAX_FLAT]]。该行星必须没有[[metertype METER_SHIELD]]或[[metertype METER_DEFENSE]]，且其物种与受益行星或帝国首都的物种不同。
+
+PLC_THE_HUNT_SHORT_DESC
+猎杀原住民获得增益
+
+PLC_ALGORITHMIC_RESEARCH
+算法研究
+
+PLC_ALGORITHMIC_RESEARCH_DESC
+'''使专注研究的行星的[[metertype METER_TARGET_RESEARCH]]提升，每单位[[metertype METER_POPULATION]]或[[metertype METER_CONSTRUCTION]]中取较小值，提升幅度为[[value LRN_ALGO_RESEARCH_TARGET_RESEARCH_PERCONSTRUCTION]]。
+该效果需要[[value LRN_ALGO_RESEARCH_MIN_STABILITY]]的稳定性。'''
+
+PLC_ALGORITHMIC_RESEARCH_SHORT_DESC
+提升研究效率
+
+PLC_INDOCTRINATION
+洗脑
+
+PLC_INDOCTRINATION_DESC
+'''• 随时间推移，提升行星的[[metertype METER_TARGET_HAPPINESS]]。每回合增长[[value PLC_INDOCTRINATION_PER_TURN]]，最高可达[[value PLC_INDOCTRINATION_STRENGTH_MAX]]。被征服的行星起始值为0，已定居的行星则获得当前最大值。
+• 在获得[[metertype METER_TARGET_HAPPINESS]]提升的行星上，减少[[metertype METER_TARGET_INFLUENCE]]，减少幅度为[[value PLC_INDOCTRINATION_INFLUENCE_COST_FLAT]]。
+• 提升首都或拥有[[buildingtype BLD_REGIONAL_ADMIN]]且具有[[encyclopedia INFLUENCE_FOCUS_TITLE]]的行星的[[metertype METER_TARGET_INFLUENCE]]，提升幅度为[[value PLC_INDOCTRINATION_INFLUENCE_FLAT]]。'''
+
+PLC_INDOCTRINATION_SHORT_DESC
+随时间提升稳定性
+
+PLC_MARTIAL_LAW
+军事管制
+
+PLC_MARTIAL_LAW_DESC
+'''• 降低已有人口行星的补给范围，减少[[value PLC_MARTIAL_LAW_SUPPLY_PENALTY]]
+• 每[[metertype METER_MAX_TROOPS]]提升已有人口行星的[[metertype METER_TARGET_HAPPINESS]]，提升幅度为[[value PLC_MARTIAL_LAW_STABILITY_PER_TROOPS]]
+• 每[[metertype METER_MAX_TROOPS]]降低已有人口行星的[[metertype METER_TARGET_RESEARCH]]，降低幅度为[[value PLC_MARTIAL_LAW_STABILITY_PER_TROOPS]]'''
+
+PLC_MARTIAL_LAW_SHORT_DESC
+以部队提升稳定性
+
+PLC_TERROR_SUPPRESSION
+恐怖镇压
+
+PLC_TERROR_SUPPRESSION_DESC
+'''• 每艘由帝国拥有、武装、处于准备战斗状态、且由帝国首都行星物种乘员驾驶的舰船，使帝国已有人口行星的[[metertype METER_TARGET_HAPPINESS]]提升[[value PLC_TERROR_SUPPRESSION_TARGET_STABILITY_SCALE]]。
+• 每艘（武装、准备战斗、首都物种乘员）舰船，使己方和敌方行星的[[metertype METER_REBEL_TROOPS]]减少[[value PLC_TERROR_SUPPRESSION_REBEL_REDUCTION_SCALE]]。
+• 每艘（武装、准备战斗、首都物种乘员）舰船，使敌方帝国中由非舰船所属帝国首都物种以外的物种占据的已有人口行星的[[metertype METER_TARGET_HAPPINESS]]减少[[value PLC_TERROR_SUPPRESSION_TARGET_STABILITY_SCALE]]。
+• 使（武装、首都物种乘员）舰船的建造成本增加[[value PLC_TERROR_SUPPRESSION_SHIP_INFLUENCE_FLAT]] [[metertype METER_INFLUENCE]]（无论是否设置为准备战斗）。'''
+
+PLC_TERROR_SUPPRESSION_SHORT_DESC
+以武装舰船提升稳定性
+
+PLC_INSURGENCY
+叛乱
+
+PLC_INSURGENCY_DESC
+在采纳此政策的帝国的补给网络内且敌对的行星上，降低[[metertype METER_TARGET_HAPPINESS]] [[value PLC_INSURGENCY_EFFECT]]。
+
+PLC_INSURGENCY_SHORT_DESC
+降低敌方稳定性
+
+PLC_DREAM_RECURSION
+梦境循环
+
+PLC_DREAM_RECURSION_DESC
+'''若帝国没有[[RE_INFLUENCE]]债务（即[[IP_STOCKPILE]]至少为零），则将有人居住的行星的[[metertype METER_TARGET_HAPPINESS]]提升至[[value PLC_INDOCTRINATION_STRENGTH_BASE]]。每控制一个采纳此政策的帝国的[[buildingtype BLD_COLLECTIVE_NET]]，该目标值将额外增加[[value PLC_INDOCTRINATION_STRENGTH_PER_COLLECTIVE_NET]]。
+
+每个行星的[[metertype METER_INFLUENCE]]将减少其[[metertype METER_TARGET_HAPPINESS]]提升量的平方根。'''
+
+PLC_DREAM_RECURSION_SHORT_DESC
+针对性提升稳定性
+
+PLC_CONFORMANCE
+顺从
+
+PLC_CONFORMANCE_DESC
+'''• 降低物种厌恶对行星稳定性的影响（乘以[[value PLC_CONFORMANCE_DISLIKE_FACTOR]]）。
+• 提升[[metertype METER_TARGET_HAPPINESS]] [[value PLC_CONFORMANCE_STABILITY_BONUS_FLAT]]'''
+
+PLC_CONFORMANCE_SHORT_DESC
+降低物种厌恶影响并提升稳定性
+
+PLC_LIBERTY
+自由
+
+PLC_LIBERTY_DESC
+'''• 增强物种厌恶对行星稳定性的影响（乘以[[value PLC_LIBERTY_DISLIKE_FACTOR]]）。
+• 在稳定性超过[[value PLC_LIBERTY_MIN_STABILITY]]的研究型行星上，提升[[metertype METER_TARGET_RESEARCH]]。提升幅度为每人口[[value PLC_LIBERTY_RESEARCH_BONUS_SCALING]]，并乘以超出[[value PLC_LIBERTY_MIN_STABILITY]]的稳定性值，最高可达[[value PLC_LIBERTY_MAX_STABILITY]]。'''
+
+PLC_LIBERTY_SHORT_DESC
+增强物种厌恶影响并提升研究
+
+PLC_TRAFFIC_CONTROL
+交通管制
+
+PLC_TRAFFIC_CONTROL_DESC
+当非敌方舰船位于己方行星50单位距离内时，提升其[[metertype METER_SPEED]] 20。
+
+PLC_TRAFFIC_CONTROL_SHORT_DESC
+加速帝国行星附近的舰船
+
+PLC_PLANETARY_INFRA
+行星基础设施
+
+PLC_PLANETARY_INFRA_DESC
+'''授予2个额外的经济[[encyclopedia ENC_POLICY_SLOTS]]。
+
+在有人居住的行星上，提升[[metertype METER_TARGET_CONSTRUCTION]] 5。'''
+
+PLC_PLANETARY_INFRA_SHORT_DESC
+授予政策槽位
+
+PLC_SYSTEM_INFRA
+星系基础设施
+
+PLC_SYSTEM_INFRA_DESC
+'''授予1个额外的经济[[encyclopedia ENC_POLICY_SLOTS]]。
+
+在至少拥有2颗由采纳此政策的帝国所拥有的行星的星系中，提升有人居住行星的[[metertype METER_TARGET_CONSTRUCTION]] 5。'''
+
+PLC_SYSTEM_INFRA_SHORT_DESC
+授予政策槽位
+
+PLC_INTERSTELLAR_INFRA
+星际基础设施
+
+PLC_INTERSTELLAR_INFRA_DESC
+'''授予2个额外的经济[[encyclopedia ENC_POLICY_SLOTS]]槽位。
+
+在与帝国其他星系中拥有行星相连的已开发行星上，[[metertype METER_TARGET_CONSTRUCTION]]增加5点。'''
+
+PLC_INTERSTELLAR_INFRA_SHORT_DESC
+授予政策槽位
+
+PLC_CAPITAL_MARKETS
+资本市场
+
+PLC_CAPITAL_MARKETS_DESC
+'''• 拥有奢侈品资源特殊且设置为[[encyclopedia INFLUENCE_FOCUS_TITLE]]的行星，将向供应连接的行星出口该资源。这将提升拥有该资源偏好的物种行星的稳定性，提升[[value SPECIAL_CAPITAL_MARKETS_STABILITY_FOCUS_BONUS]]。
+• 在至少拥有[[value CAPITAL_MARKETS_INFLUENCE_MIN_STABILITY]] [[metertype METER_HAPPINESS]]的影响力聚焦行星上，[[metertype METER_TARGET_INFLUENCE]]增加[[value CAPITAL_MARKETS_INFLUENCE_BONUS_SCALING]]，该数值基于[[metertype METER_CONSTRUCTION]]和[[metertype METER_POPULATION]]中的较小值。
+• 将[[metertype METER_INFLUENCE]]和[[metertype METER_HAPPINESS]]的增长或衰减速率提升[[value PLC_CAPITAL_MARKETS_INFLUENCE_RATE]] / 回合，使其更接近[[metertype METER_TARGET_INFLUENCE]]或[[metertype METER_TARGET_HAPPINESS]]。
+• 降低已开发帝国行星的[[metertype METER_TARGET_HAPPINESS]]，降低幅度为帝国影响力债务的[[value CAPITAL_MARKETS_DEBT_INSTABILITY]]倍。'''
+
+PLC_CAPITAL_MARKETS_SHORT_DESC
+通过资源出口提升稳定性
+
+PLC_BLACK_MARKET
+黑市
+
+PLC_BLACK_MARKET_DESC
+稳定性为[[value PLC_BLACK_MARKET_MAX_STABILITY]]或更低且设置为[[encyclopedia INFLUENCE_FOCUS_TITLE]]的行星，每有一个供应连接的奢侈品资源特殊行星，其人口所喜爱的资源，[[metertype METER_TARGET_INFLUENCE]]将增加[[value SPECIAL_BLACK_MARKET_INFLUENCE_FOCUS_BONUS]]。
+
+PLC_BLACK_MARKET_SHORT_DESC
+通过资源提升影响力
+
+PLC_ARTISAN_WORKSHOPS
+工匠工坊
+
+PLC_ARTISAN_WORKSHOPS_DESC
+'''拥有[[encyclopedia ARTISTIC]]物种的行星将通过出口美观的手工艺品产生影响力。
+• 在设置为[[encyclopedia INFLUENCE_FOCUS_TITLE]]且稳定性不低于[[value ARTISANS_MIN_STABILITY_FOCUS]]的行星上，[[metertype METER_TARGET_INFLUENCE]]增加[[value ARTISANS_INFLUENCE_FLAT_FOCUS]]。
+• 在未设置为[[encyclopedia INFLUENCE_FOCUS_TITLE]]且稳定性不低于[[value ARTISANS_MIN_STABILITY_NO_FOCUS]]的行星上，[[metertype METER_TARGET_INFLUENCE]]增加[[value ARTISANS_INFLUENCE_FLAT_NO_FOCUS]]。'''
+
+PLC_ARTISAN_WORKSHOPS_SHORT_DESC
+[[encyclopedia ARTISTIC]]物种生产奢侈品
+
+PLC_BOOTSTRAPPING
+殖民初期扶持
+
+PLC_BOOTSTRAPPING_DESC
+'''• 提升人口少于[[value PLC_BOOTSTRAPPING_MAX_POP]]的殖民地的工业、研究、影响力计量器增长速度，并提升其稳定性。
+• 提升在最近[[value PLC_BOOTSTRAPPING_MAX_TURNS]]回合内被殖民的行星的稳定性，随时间逐渐降低。
+
+新殖民地通常会从支持其早期发展的政策以及殖民者对建立新家园的投入中获益。'''
+
+PLC_BOOTSTRAPPING_SHORT_DESC
+提升小型殖民地
+
+PLC_PROPAGANDA
+宣传广播
+
+PLC_PROPAGANDA_DESC
+'''提升采纳此政策的帝国的帝国首都影响力[[value PROPAGANDA_INFLUENCE_FLAT]]。
+
+若盟友帝国未采纳此政策，则提升其帝国首都影响力[[value PROPAGANDA_INFLUENCE_ALLIED_FLAT]]。
+
+若敌对帝国未采纳此政策且能观测到采纳此政策的帝国至少一个所属物体，则降低其帝国首都影响力[[value PROPAGANDA_INFLUENCE_ENEMY_FLAT]]。'''
+
+PLC_PROPAGANDA_SHORT_DESC
+提升首都影响力
+
+PLC_AUGMENTATION
+增强改造
+
+PLC_AUGMENTATION_DESC
+'''• 将所有宜居行星的最低 [[metertype METER_TARGET_POPULATION]] 设为行星规模：([[SZ_TINY]] = 1) ([[SZ_SMALL]] = 2) ([[SZ_MEDIUM]] = 3) ([[SZ_LARGE]] = 4) ([[SZ_HUGE]] = 5)。
+• 所有行星的 [[metertype METER_TROOPS]] 最大值增加 [[value CYBORG_MAX_TROOPS_PERPOP]] 每 [[metertype METER_POPULATION]]。
+
+改造为生化人能产生有机体、无机体与机器生命之间的多功能融合，使其能够迅速适应不断变化的环境。自发生成的特化器官、机制以及环境适应能力，使生化人能够在几乎任何环境中生存并繁荣发展。'''
+
+PLC_AUGMENTATION_SHORT_DESC
+各类行星增益
+
+PLC_ISOLATION
+孤立
+
+PLC_ISOLATION_DESC
+'''• 对距离其他有人居住行星超过 [[value PLC_ISOLATION_THRESHOLD_DISTANCE]] uu 的殖民地，最多提升 [[value PLC_ISOLATION_MAX_STABILITY_MODIFIER]] 的稳定性。
+• 对距离其他有人居住行星小于 [[value PLC_ISOLATION_THRESHOLD_DISTANCE]] uu 的殖民地，最多降低 [[value PLC_ISOLATION_MAX_STABILITY_MODIFIER]] 的稳定性。
+• 提升殖民地和前哨站的隐匿性 [[value PLC_ISOLATION_STEALTH]]。'''
+
+PLC_ISOLATION_SHORT_DESC
+强化孤立行星
+
+PLC_BUREAUCRACY
+官僚主义
+
+PLC_BUREAUCRACY_DESC
+'''• 提升帝国所有有人居住行星的稳定性 [[value PLC_BUREAUCRACY_STABILITY_FLAT]]。
+• 更改行星焦点时，该行星的 [[metertype METER_INFLUENCE]] 会减少 [[value BUREAUCRACY_FOCUS_CHANGE_PENALTY]]。
+• 根据总人口消耗一定影响力。拥有更多行政建筑（[[buildingtype BLD_IMPERIAL_PALACE]]，[[buildingtype BLD_REGIONAL_ADMIN]]）以及采用 [[PLC_CENTRALIZATION]] 政策可降低消耗。'''
+
+PLC_BUREAUCRACY_SHORT_DESC
+提升稳定性
+
+PLC_NECESSITY
+必要性
+
+PLC_NECESSITY_DESC
+'''必要性是发明之母。
+
+在研究聚焦行星上，若 [[metertype METER_HAPPINESS]] 低于 [[value PLC_NECESSITY_MAX_STABILITY]]：
+• [[metertype METER_TARGET_RESEARCH]] 增加 [[value PLC_NECESSITY_TARGET_RESEARCH_FACTOR]] 乘以 [[metertype METER_HAPPINESS]] 低于 [[value PLC_NECESSITY_MAX_STABILITY]] 的程度的 1.5 次方，再乘以 [[metertype METER_POPULATION]]。
+• 每回合 [[metertype METER_RESEARCH]] 增长提升 [[value PLC_NECESSITY_RESEARCH_GROWTH_BOOST]]。'''
+
+PLC_NECESSITY_SHORT_DESC
+提升不稳定行星的研究效率
+
+PLC_FLANKING
+侧翼攻击
+
+PLC_FLANKING_DESC
+'''当采纳此政策的帝国在某星系中拥有比敌方更多静止武装舰船时，该帝国的武器每射击一次将造成额外的结构伤害。
+
+同时，执行钳形攻击的舰船也会造成额外结构伤害。钳形攻击是指采纳此政策的帝国舰船通过不同星际航道在下回合抵达同一星系。
+
+• 舰船武器伤害增加 [[value PLC_FLANKING_DAMAGE_BOOST]]（例如 [[shippart SR_WEAPON_1_1]]、[[shippart SR_WEAPON_2_1]]、[[shippart SR_WEAPON_3_1]] 或 [[shippart SR_WEAPON_4_1]]）
+• 攻击机、轰炸机和重型轰炸机的武器伤害增加 [[value PLC_FLANKING_FIGHTER_DAMAGE_BOOST]]（例如 [[shippart FT_HANGAR_2]]、[[shippart FT_HANGAR_3]] 或 [[shippart FT_HANGAR_4]]）
+• 每 [[FT_BAY_1]] 发射的拦截机数量增加 [[value PLC_FLANKING_BAY_LAUNCH_BONUS]]（参见 [[shippart FT_HANGAR_1]]）
+• [[shippart SR_ARC_DISRUPTOR]] 的射击次数增加 [[value PLC_FLANKING_ARC_DISRUPTOR_SHOT_BONUS]] '''
+
+PLC_FLANKING_SHORT_DESC
+提升舰船伤害
+
+PLC_CHARGE
+冲锋
+
+PLC_CHARGE_DESC
+'''对于速度至少达到 [[value PLC_CHARGE_MINIMUM_SPEED]] [[metertype METER_SPEED]] 的武装舰船：
+• 舰船武器伤害增加 [[value PLC_CHARGE_DAMAGE_BOOST]]（例如 [[shippart SR_WEAPON_1_1]]、[[shippart SR_WEAPON_2_1]]、[[shippart SR_WEAPON_3_1]] 或 [[shippart SR_WEAPON_4_1]]）
+• 每 [[FT_BAY_1]] 发射的战斗机数量增加 [[value PLC_CHARGE_BAY_LAUNCH_BONUS]]
+• [[shippart SR_ARC_DISRUPTOR]] 的射击次数增加 [[value PLC_CHARGE_ARC_DISRUPTOR_SHOT_BONUS]]
+• 拥有冲锋能力的 [[shippart SR_FLUX_LANCE]] 可以提前一回合开始攻击敌舰
+• [[shippart SR_WEAPON_0_1]] 的射击次数减少 [[value PLC_CHARGE_FLAK_SHOT_REDUCTION]]
+• [[metertype METER_MAX_SHIELD]] 减少 [[value PLC_CHARGE_SHIELD_REDUCTION]] '''
+
+PLC_CHARGE_SHORT_DESC
+提升高速舰船伤害
+
+FLUX_HULL_TECHS
+空间脉冲线
+
+FLUX_HULL_TECHS_DESC
+与空间脉冲舰体系列相关的技术。
+
+LRN_NASCENT_AI
+萌芽人工智能
+
+LRN_NASCENT_AI_DESC
+'''所有行星的[[metertype METER_TARGET_RESEARCH]]提升[[value LRN_NASCENT_AI_TARGET_RESEARCH_FLAT]]。
+该效果需要[[value LRN_NASCENT_AI_MIN_STABILITY]]以上的稳定度。
+
+虽然传统计算机拥有几乎难以想象的智能与计算能力，但它们缺乏自我意识、意识或感知等关键特质。尽管这些特性仍难以捉摸，但合理的模拟形式或许可以实现。这些研究为认知科学和新型范式开辟了新的途径。
+
+初生人工智能能够将所有活跃研究人员发现的数据输入单一的自动数据处理网络，数据可被自动分析，并由完全自动化的研究设施获取新数据。每个行星均可拥有此类结构，无论其人口从事何种职业，从而为所有世界的研究提供加成。'''
+
+PRO_ADAPTIVE_AUTOMATION
+自适应自动化
+
+PRO_ADAPTIVE_AUTOMATION_DESC
+'''所有行星的[[metertype METER_TARGET_INDUSTRY]]提升[[value PRO_ADAPTIVE_AUTO_TARGET_INDUSTRY_FLAT]]。
+该效果需要[[value PRO_ADAPTIVE_AUTO_MIN_STABILITY]]以上的稳定度。
+
+通过制造无需直接监管的自动化工厂，可在完全自动化的设施中提升工业产出。这些工厂可建造并维护于任何行星，无论其发展重点为何，从而为所有世界提供工业加成。
+
+随着设备自动化程度不断提高，它们将能够完全自主复制和维护自身，仅需基本原材料以及所要求或建议的最终产品。当由人工智能控制时，整个系统可自主学习、规划、反应与适应，且无需传统上用于安置和雇佣工人的繁琐低效流程。'''
+
+CON_OUTPOST
+前哨站
+
+CON_OUTPOST_DESC
+在行星和小行星带建立[[encyclopedia OUTPOSTS_TITLE]]所必需的技术。
+
+SHP_SMALL_ROBO
+小型机器人船体
+
+SHP_SMALL_ROBO_DESC
+随着纳米技术的进步，船体部件得以微型化，从而实现更小但空间更充裕的机器人船体。
+
+SHP_SPACE_FLUX_BASICS
+空间流变操控
+
+SHP_SPACE_FLUX_BASICS_DESC
+该技术允许操控空间本身，扩展或压缩最小的空间单元。在这一基础层次的操控下，可通过扭曲敌舰航路的空间制造出简单武器。进一步研究后，该效应还可用于高效推进舰船穿越空间。
+
+SHP_SPACE_FLUX_COMPOSITION
+空间流变组合
+
+SHP_SPACE_FLUX_COMPOSITION_DESC
+通过弯曲和拉伸空间流变气泡，并将其与空间流变推进器结合，可为特定用途建造专用船体。
+
+SPY_DECEPTION_EMPTY_SPACE_PENALTY
+在空旷空间中显眼
+
+SPY_DECEPTION_DIM_STAR_PENALTY
+靠近暗星时显眼
+
+SPY_DECEPTION_SUBSTELLAR_INTERFERENCE
+高辐射背景干扰
+
+POLICY_UNLOCK_SHORT_DESC
+解锁政策
+
+POLICY_SLOT_UNLOCK_SHORT_DESC
+解锁槽位
+
+POLICY_AND_SLOT_UNLOCK_SHORT_DESC
+解锁槽位与政策
+
+POLICY_AND_BUILDING_UNLOCK_SHORT_DESC
+解锁政策与建筑
+
+VARIOUS_UNLOCK_SHORT_DESC
+解锁多种事物
+
+RESEARCH_AND_SLOT_SHORT_DESC
+提升研究，解锁槽位
+
+INDUSTRY_AND_SLOT_SHORT_DESC
+提升工业，解锁槽位
+
+ALL_BLD_TERRAFORM_DESC
+有两种类型的改造项目。[[buildingtype BLD_TERRAFORM_BEST]] 由居住在行星上的居民建造，可直接将该行星改造为最佳的[[encyclopedia ENVIRONMENT_TITLE]]。一系列针对特定相关[[encyclopedia ENVIRONMENT_TITLE]]的项目可提供更多选择，也可在[[encyclopedia OUTPOSTS_TITLE]]上建造。总体而言，直接改造比一系列逐步改造更便宜且建造更快。
+
+SHP_WEAPON_ARC_DISRUPTOR_1
+弧形干扰器
+
+SHP_WEAPON_ARC_DISRUPTOR_1_DESC
+解锁[[shippart SR_ARC_DISRUPTOR]]，一种自动化武器系统，对多个目标造成较低伤害。基础武器部件的射击伤害为[[value SR_ARC_DISRUPTOR_PART_CAPACITY]]。
+
+SHP_WEAPON_ARC_DISRUPTOR_2
+弧形干扰器 2
+
+SHP_WEAPON_ARC_DISRUPTOR_2_DESC
+升级所有位于[[metertype METER_SUPPLY]]范围内的舰船上的[[shippart SR_ARC_DISRUPTOR]]部件（或在之后进入该范围时升级）。升级后的武器部件射击伤害为[[value SHP_WEAPON_ARC_DISRUPTOR_2_UPGRADED_DAMAGE]]。
+
+SHP_WEAPON_ARC_DISRUPTOR_3
+弧形干扰器 3
+
+SHP_WEAPON_ARC_DISRUPTOR_3_DESC
+升级所有位于[[metertype METER_SUPPLY]]范围内的舰船上的[[shippart SR_ARC_DISRUPTOR]]部件（或在之后进入该范围时升级）。升级后的武器部件射击伤害为[[value SHP_WEAPON_ARC_DISRUPTOR_3_UPGRADED_DAMAGE]]。
+
+SPY_DETECT_STELLAR_INTERFERENCE
+恒星干扰
+
+SPY_DETECT_LENSING
+引力透镜
+
+SPY_DETECT_CLEAN_STELLAR_BACKGROUND
+低背景暗空
+
+FLEET_UNSTEALTHINESS
+舰队暴露度
+
+FLEET_UNSTEALTHY_SHIPS_THRESHOLD
+同一帝国在星系中拥有的舰船数量超过此值时，舰船将受到隐身惩罚
+
+BLD_COLONY_INDEPENDENCE_DECREE
+行星独立法令
+
+BLD_COLONY_INDEPENDENCE_DECREE_DESC
+授予该行星上的殖民地独立地位。独立殖民地将保留其原有的[[metertype METER_TARGET_POPULATION]]、[[metertype METER_MAX_SHIELD]]、[[metertype METER_MAX_DEFENSE]] 和 [[metertype METER_MAX_TROOPS]]。建造完成后该建筑将被消耗。
+
+BLD_ABANDON_OUTPOST
+放弃前哨站
+
+BLD_ABANDON_OUTPOST_DESC
+放弃该行星上的前哨站。该建筑需要两回合准备拆除前哨站。若已准备拆除，则需连续一回合无战斗发生，才能完全放弃前哨站。建筑在过程中被消耗，之后该行星将无人拥有。
+
+BLD_REGIONAL_ADMIN
+帝国区域行政中心
+
+BLD_REGIONAL_ADMIN_DESC
+在距离相关的行星稳定性方面，作用如同[[buildingtype BLD_IMPERIAL_PALACE]] / 帝国首都。
+
+BLD_MILITARY_COMMAND
+军事指挥
+
+BLD_MILITARY_COMMAND_DESC
+'''• 提供一个军事 [[encyclopedia ENC_POLICY_SLOTS]]。
+• 如果帝国已摧毁至少5艘舰船，则额外提供一个军事 [[encyclopedia ENC_POLICY_SLOTS]]。'''
+
+BLD_LIGHTHOUSE_CATALOG_STEALTH_LABEL
+灯塔系统目录
+
+BLD_FIELD_REPELLOR
+场力排斥器
+
+BLD_FIELD_REPELLOR_DESC
+将移动中的场（不在星系内的场）推开其所在位置。
+
+BLD_TERRAFORM_BEST
+受欢迎的改造
+
+BLD_TERRAFORM_BEST_DESC
+将一个世界改造为居住物种偏好的 [[encyclopedia ENVIRONMENT_TITLE]] 环境。
+
+BLD_TERRAFORM_TERRAN
+改造为 [[PT_TERRAN]]
+
+BLD_TERRAFORM_TERRAN_DESC
+将一个世界改造为 [[PT_TERRAN]] 环境。
+
+BLD_TERRAFORM_OCEAN
+改造为 [[PT_OCEAN]]
+
+BLD_TERRAFORM_OCEAN_DESC
+将一个世界改造为 [[PT_OCEAN]] 环境。
+
+BLD_TERRAFORM_SWAMP
+改造为 [[PT_SWAMP]]
+
+BLD_TERRAFORM_SWAMP_DESC
+将一个世界改造为 [[PT_SWAMP]] 环境。
+
+BLD_TERRAFORM_TOXIC
+改造为 [[PT_TOXIC]]
+
+BLD_TERRAFORM_TOXIC_DESC
+将一个世界改造为 [[PT_TOXIC]] 环境。
+
+BLD_TERRAFORM_INFERNO
+改造为 [[PT_INFERNO]]
+
+BLD_TERRAFORM_INFERNO_DESC
+将一个世界改造为 [[PT_INFERNO]] 环境。
+
+BLD_TERRAFORM_RADIATED
+改造为 [[PT_RADIATED]]
+
+BLD_TERRAFORM_RADIATED_DESC
+将一个世界改造为 [[PT_RADIATED]] 环境。
+
+BLD_TERRAFORM_BARREN
+改造为 [[PT_BARREN]]
+
+BLD_TERRAFORM_BARREN_DESC
+将一个世界改造为 [[PT_BARREN]] 环境。
+
+BLD_TERRAFORM_TUNDRA
+改造为[[PT_TUNDRA]]
+
+BLD_TERRAFORM_TUNDRA_DESC
+将一个星球改造为[[PT_TUNDRA]]环境。
+
+BLD_TERRAFORM_DESERT
+改造为[[PT_DESERT]]
+
+BLD_TERRAFORM_DESERT_DESC
+将一个星球改造为[[PT_DESERT]]环境。
+
+BLD_TRANSLATOR
+近全通用翻译器
+
+BLD_TRANSLATOR_DESC
+'''授予1个社会[[encyclopedia ENC_POLICY_SLOTS]]。
+
+当该星球设置为[[encyclopedia INFLUENCE_FOCUS_TITLE]]时，其影响力产出将提升，提升幅度为帝国所控制的各星球上独特种族数量的平方根乘以[[value TRANSLATOR_PER_SPECIES_INFLUENCE]]。'''
+
+BLD_COL_FULVER
+[[SP_FULVER]]殖民地
+
+BLD_COL_FULVER_DESC
+[[BLD_COL_PART_1]] [[species SP_FULVER]]殖民地。[[BLD_COL_PART_2]]福尔弗殖民地[[BLD_COL_PART_3]]。
+
+FT_HANGAR_0_FIGHTER
+诱饵
+
+FT_HANGAR_1_FIGHTER
+拦截机
+
+FT_HANGAR_2_FIGHTER
+攻击战斗机
+
+FT_HANGAR_3_FIGHTER
+轰炸机
+
+FT_HANGAR_4_FIGHTER
+重型轰炸机
+
+SR_ARC_DISRUPTOR
+弧形干扰器
+
+SR_ARC_DISRUPTOR_DESC
+'''弧形干扰器，一种多发射击的舰船武器，具有良好的长期升级研究选项。
+
+充电的极化子电容器产生分子干扰通量波，该波在太空中弧形传播，击中多艘舰船后才消散。干扰通量可被显著偏转绕过舰船护盾。
+
+升级武器科技将提高射击伤害。
+
+该武器的[[encyclopedia DAMAGE_TITLE]]为射击伤害与任何激活增益的总和。驾驶特性不影响伤害。弧形干扰器的基础射击伤害为[[value SR_ARC_DISRUPTOR_PART_CAPACITY]]。升级科技[[tech SHP_WEAPON_ARC_DISRUPTOR_2]]可使该伤害增加[[value SHP_WEAPON_ARC_DISRUPTOR_2_UPGRADE_DAMAGE]]。'''
+
+SR_FLUX_LANCE
+空间通量长矛
+
+SR_FLUX_LANCE_DESC
+'''空间通量长矛，一种内置的短程舰船武器。生产成本低廉，但造成的伤害较小。
+
+空间通量长矛发生器在舰船附近制造短暂的空间畸变。该畸变对战斗机致命，对装甲舰船则构成困扰。多个发生器会相互干扰，因此每艘舰船只能安装一个通量长矛部件。
+
+通量长矛在战斗回合[[value FIRST_COMBAT_ROUND_IN_CLOSE_TARGETING_RANGE]]及以后才能对目标造成[[encyclopedia DAMAGE_TITLE]]，因为早期回合目标距离过远。通量长矛在战斗回合2开始摧毁进入射程的战斗机。
+
+该武器的[[encyclopedia DAMAGE_TITLE]]为射击伤害与任何激活增益的总和。驾驶特性不影响伤害。'''
+
+SR_GRAV_PULSE
+引力脉冲器
+
+SR_GRAV_PULSE_DESC
+'''引力脉冲对所有处于爆炸范围内的目标造成船体完整性伤害。即使爆炸扩散，对战斗机仍具有致命威胁，但对舰船或行星防御仅造成轻微伤害。
+
+引力脉冲仅在战斗回合2造成一次[[encyclopedia DAMAGE_TITLE]]。'''
+
+SR_THRASHING_BODY
+狂舞之躯
+
+SR_THRASHING_BODY_DESC
+'''空间怪物的快速移动躯体，会碾压其路径上的战斗机和低结构舰船。
+
+当目标在早期回合距离过远时，该躯体从近战回合 [[value FIRST_COMBAT_ROUND_IN_CLOSE_TARGETING_RANGE]] 开始造成 [[encyclopedia DAMAGE_TITLE]]。'''
+
+SH_SMALL_ROBOTIC
+小型机械舰体
+
+SH_SMALL_ROBOTIC_DESC
+'''这种小型自动化舰体内部空间出人意料地宽敞，非常适合多种辅助任务。它拥有三个内部插槽，并且只要舰船未参与战斗，每回合可修复 [[value SHP_ROBOTIC_REPAIR]] 点 [[metertype METER_STRUCTURE]]。
+
+[[metertype METER_STEALTH]] 为中等，[[metertype METER_DETECTION]] 为中等，[[metertype METER_SPEED]] 为平均。
+
+[[BLD_SHIPYARD_BASE_ORBITAL_DRYDOCK_REQUIRED]]'''
+
+SH_SPACE_FLUX_COMPOSITE
+空间脉动复合舰体
+
+SH_SPACE_FLUX_COMPOSITE_DESC
+'''专为单一核心部件设计的大型舰船，采用 [[tech SHP_SPACE_FLUX_COMPOSITION]] 技术。其在长距离航行中具备不错的速度。它拥有一个核心插槽、一个内部插槽和一个外部插槽，最大 [[metertype METER_STRUCTURE]] 为高。
+
+[[FLUX_STEALTH_DESC]]
+
+[[metertype METER_DETECTION]] 为中等，[[metertype METER_SPEED]] 为平均。
+
+[[BLD_SHIPYARD_BASE_ORBITAL_DRYDOCK_REQUIRED]]'''
+
+FLUX_STEALTH_DESC
+'''配备此舰体的舰船在舰队设定为发起战斗时，基础 [[metertype METER_STEALTH]] 为 [[value SPATIAL_FLUX_STEALTH_HULL_BASE]]；在其他战斗设定下，基础 [[metertype METER_STEALTH]] 为 [[value SPATIAL_FLUX_STEALTH_NON_AGGRESSIVE]]。
+
+研究 [[tech SPY_STEALTH_PART_1]]、[[tech SPY_STEALTH_PART_2]]、[[tech SPY_STEALTH_PART_3]] 和 [[tech SPY_STEALTH_4]] 中的每一项，可使非主动攻击舰队中的基础隐蔽性提升 [[value SPATIAL_FLUX_STEALTH_TECH_BONUS]]。
+
+若舰船在星系中停泊，由于脉动相干性的破坏，其隐蔽性将在接下来的 2 回合内降低 [[value SPATIAL_FLUX_STEALTH_ARRIVAL_MALUS]]。'''
+
+SH_GUARD_ACIREMA_BODY
+阿西雷马护卫舰体
+
+SH_GUARD_ACIREMA_BODY_DESC
+[[SH_ENERGY_FRIGATE_DESC]]
+
+MIN_POPULATION_REQUIRED
+仅可在 [[metertype METER_POPULATION]] 不低于 [[value MIN_COLONY_SIZE]] 的地点建造
+
+VERY_BAD_INDUSTRY_DESC
+−−	极差 [[metertype METER_INDUSTRY]]：50%
+
+VERY_BAD_RESEARCH_DESC
+−−	极差 [[metertype METER_RESEARCH]]：50%
+
+NO_INFLUENCE_DESC
+−−−	无 [[metertype METER_INFLUENCE]]
+
+VERY_BAD_INFLUENCE_DESC
+−−	极差 [[metertype METER_INFLUENCE]]：66.7%
+
+BAD_INFLUENCE_DESC
+−	较差 [[metertype METER_INFLUENCE]]：80%
+
+AVERAGE_INFLUENCE_DESC
+⋄	平均 [[metertype METER_INFLUENCE]]：100%
+
+GOOD_INFLUENCE_DESC
++	良好 [[metertype METER_INFLUENCE]]：125%
+
+GREAT_INFLUENCE_DESC
+++	优秀 [[metertype METER_INFLUENCE]]：150%
+
+ULTIMATE_INFLUENCE_DESC
++++	极致 [[metertype METER_INFLUENCE]]：200%
+
+VERY_BAD_HAPPINESS_DESC
+−−	极差 [[metertype METER_HAPPINESS]]：[[value VERY_BAD_HAPPINESS_VAL]]
+
+BAD_HAPPINESS_DESC
+−	较差 [[metertype METER_HAPPINESS]]：[[value BAD_HAPPINESS_VAL]]
+
+AVERAGE_HAPPINESS_DESC
+⌃	平均 [[metertype METER_HAPPINESS]]：+0
+
+GOOD_HAPPINESS_DESC
++	良好 [[metertype METER_HAPPINESS]]：+[[value GOOD_HAPPINESS_VAL]]
+
+GREAT_HAPPINESS_DESC
+++	优秀 [[metertype METER_HAPPINESS]]：+[[value GREAT_HAPPINESS_VAL]]
+
+ULTIMATE_HAPPINESS_DESC
++++	终极 [[metertype METER_HAPPINESS]]：+[[value ULTIMATE_HAPPINESS_VAL]]
+
+INDEPENDENT_HAPPINESS_DESC
+⌃	[[encyclopedia INDEPENDENT]] [[metertype METER_HAPPINESS]]：基础稳定性不受补给连接影响
+
+PHOTOTROP_DESC
++	在白色恒星处每回合补充1.0燃料，在蓝色恒星处每回合补充2.0燃料
+
+ABADDONI_STARTING_UNLOCKS_DESC
++	初始已研究[[tech GRO_SUBTER_HAB]]
+
+FULVER_STARTING_UNLOCKS_DESC
++	初始已研究[[tech PRO_GENERIC_SUPPLIES]]
+
+SLY_STARTING_UNLOCKS_DESC
++	初始已解锁[[policy PLC_CONFEDERATION]]
+
+EXTREMELY_BAD_POPULATION_DESC
+−−−	极差 [[metertype METER_POPULATION]]：25%
+
+VERY_BAD_POPULATION_DESC
+−−	非常差 [[metertype METER_POPULATION]]：50%
+
+GREAT_POPULATION_DESC
+++	优秀 [[metertype METER_POPULATION]]：150%
+
+BAD_SHIP_SHIELD_DESC
+-	舰船 [[metertype METER_SHIELD]] 较差：舰船护盾较弱
+
+GREAT_SHIP_SHIELD_DESC
+++	舰船 [[metertype METER_SHIELD]] 优秀：舰船护盾更强
+
+ULTIMATE_SHIP_SHIELD_DESC
++++	舰船 [[metertype METER_SHIELD]] 终极：舰船护盾最强
+
+NO_FUEL_DESC
+−−−	舰船 [[metertype METER_FUEL]] 为零
+
+AVERAGE_FUEL_DESC
+⌃	平均最大 [[metertype METER_FUEL]]：+0
+
+GOOD_FUEL_DESC
++	良好最大 [[metertype METER_FUEL]]：+0.5
+
+GREAT_FUEL_DESC
+++	优秀最大 [[metertype METER_FUEL]]：+1
+
+ULTIMATE_FUEL_DESC
++++	终极最大 [[metertype METER_FUEL]]：+1.5
+
+HAEMAESTHETIC_DETECTION_DESC
++	血色感应器：可探测附近存在有机生命体的行星。
+
+PRECOGNITIVE_DETECTION_DESC
++	预知探测：可探测连接星际航道的行星
+
+ARTISTIC_TRAIT_DESC
++	[[encyclopedia ARTISTIC]]：提升稳定度与幸福感
+
+COLONY_ADMIN_COSTS_LABEL
+殖民地管理维护费用
+
+SPECIES_HOMEWORLD_INDEPENDENCE_DESIRE_LABEL
+母星独立运动
+
+CAPITAL_DISCONNECTION_LABEL
+未连接至帝国首都
+
+ARTISAN_APPRECIATION
+喜欢同系统内的其他艺术型物种
+
+LIKES_POLICY_LABEL
+喜欢%1%政策%2%
+
+DISLIKES_POLICY_LABEL
+不喜欢%1%政策%2%
+
+LIKES_BUILDING_LABEL
+喜欢%1%建筑%2%
+
+DISLIKES_BUILDING_LABEL
+不喜欢%1%建筑%2%
+
+LIKES_FOCUS_LABEL
+喜欢%1%专注领域
+
+DISLIKES_FOCUS_LABEL
+不喜欢%1%专注领域
+
+LIKES_SPECIAL_LABEL
+喜欢%1% %2%
+
+DISLIKES_SPECIAL_LABEL
+不喜欢%1% %2%
+
+GOOD_ENVIRONMENT_STABILITY_LABEL
+%1% 良好环境
+
+ADEQUATE_ENVIRONMENT_STABILITY_LABEL
+%1% 适宜环境
+
+POOR_ENVIRONMENT_STABILITY_LABEL
+%1% 恶劣环境
+
+HOSTILE_ENVIRONMENT_STABILITY_LABEL
+%1% 敌对环境
+
+UNINHABTIABLE_ENVIRONMENT_STABILITY_LABEL
+%1% 不可居住环境
+
+GRO_TECH_ACCOUNTING_LABEL
+[[TT_TECH]]
+
+DEF_TECH_ACCOUNTING_LABEL
+[[TT_TECH]]
+
+CON_TECH_ACCOUNTING_LABEL
+[[TT_TECH]]
+
+INSTABILITY_REBELLION
+因 %1% 不稳定引发的暴动
+
+PARTISANS_REBELLION
+因影响力债务产生的 %2% 游击队
+
+INFLUENCE_DEBT_DECAY
+影响力债务衰减
+
+DEPENDENCE_ON_IMPERIAL_SUPPORT_DUE_TO_ENVIRONMENT
+因 %1% 环境依赖帝国支持
+
+EXTREMELY_BAD_POPULATION_LABEL
+%2% 极度恶劣的人口状况
+
+VERY_BAD_POPULATION_LABEL
+%2% 非常糟糕的人口状况
+
+GREAT_POPULATION_LABEL
+%2% 极佳的人口状况
+
+VERY_BAD_INDUSTRY_LABEL
+%2% 非常糟糕的工业
+
+VERY_BAD_RESEARCH_LABEL
+%2% 非常糟糕的研究
+
+FOCUS_INFLUENCE_LABEL
+%2% 影响力专注
+
+VERY_BAD_INFLUENCE_LABEL
+%2% 非常糟糕的影响力
+
+BAD_INFLUENCE_LABEL
+%2% 较差的影响力
+
+GOOD_INFLUENCE_LABEL
+%2% 良好的影响力
+
+GREAT_INFLUENCE_LABEL
+%2% 优秀的影响力
+
+ULTIMATE_INFLUENCE_LABEL
+%2% 极致的影响力
+
+VERY_BAD_HAPPINESS_LABEL
+%2% 非常糟糕的稳定度
+
+BAD_HAPPINESS_LABEL
+%2% 较差的稳定度
+
+GOOD_HAPPINESS_LABEL
+%2% 良好稳定
+
+GREAT_HAPPINESS_LABEL
+%2% 优秀稳定
+
+ULTIMATE_HAPPINESS_LABEL
+%2% 极致稳定
+
+NO_FUEL_LABEL
+%2% 无燃料
+
+BAD_FUEL_LABEL
+%2% 燃料上限差
+
+AVERAGE_FUEL_LABEL
+%2% 燃料上限一般
+
+GOOD_FUEL_LABEL
+%2% 燃料上限良好
+
+GREAT_FUEL_LABEL
+%2% 燃料上限优秀
+
+ULTIMATE_FUEL_LABEL
+%2% 燃料上限极致
+
+IMPERIAL_GARRISON_LABEL
+帝国驻军
+
+IMPERIAL_GARRISON_MAX_TROOPS_FLAT
+''''''
+
+
+NATIVE_PLANETARY_DETECTION_LABEL
+%2% 本土行星探测
+
+TINY_PLANET_STABILITY_LABEL
+微型行星
+
+SMALL_PLANET_STABILITY_LABEL
+小型行星
+
+MEDIUM_PLANET_STABILITY_LABEL
+中型行星
+
+LARGE_PLANET_STABILITY_LABEL
+大型行星
+
+HUGE_PLANET_STABILITY_LABEL
+巨型行星
+
+GAS_GIANT_STABILITY_LABEL
+气态巨行星
+
+CAPITAL_CONNECTION_LABEL
+良好首都补给连接
+
+CAPITAL_POOR_CONNECTION_LABEL
+薄弱首都补给连接
+
+IMPERIAL_PALACE_SPECIES_HAPPINESS
+帝国首都种族满意度
+
+SELF_RELIANCE
+自给自足
+
+VERY_GOOD_VISION_LABEL
+视野极佳
+
+GAS_GIANT_STEALTH
+气态巨行星掩护
+
+LIKES
+'''喜好：'''
+
+DISLIKES
+'''厌恶：'''
+
+FUEL_TITLE
+燃料
+
+FUEL_EFFICIENCY_TITLE
+燃料效率
+
+FUEL_REFUEL_EFFICIENCY_TEXT
+'''[[metertype METER_FUEL]] 使舰船能够在其帝国的 [[metertype METER_SUPPLY]] 范围外穿越星际航道。在超出补给范围的星际航道上航行时，每穿越一条航道都会消耗燃料；只要在 [[metertype METER_SUPPLY]] 范围内停靠，舰船即可完全补满燃料。若舰船在友方 [[metertype METER_SUPPLY]] 范围外静止不动，燃料将缓慢恢复。
+
+一艘 <encyclopedia ENC_SHIP_DESIGN>舰船设计</encyclopedia> 的基础燃料容量取决于所使用的 [[encyclopedia ENC_SHIP_HULL]]，但也可以通过某些 [[encyclopedia ENC_SHIP_PART]] 部件进行提升。
+
+舰船船体具有极佳（400%）、良好（200%）、正常（100%）或较差（60%）的燃料效率，这决定了额外燃料部件或其他燃料调整效果的实际效果。燃料效率通常随船体质量增加而降低，因此只有极小型舰船才能保持高燃料效率，而大型舰船在超出 [[metertype METER_SUPPLY]] 范围时会面临困难。游戏始终显示经过船体效率调整后的实际燃料水平。'''
+
+FUEL_EFFICIENCY_DESC
+[[FUEL_EFFICIENCY_TITLE]]
+
+BAD_FUEL_EFFICIENCY_LABEL
+船体 <i>%2%</i> -40% [[encyclopedia FUEL_EFFICIENCY_TITLE]]
+
+AVERAGE_FUEL_EFFICIENCY_LABEL
+船体 <i>%2%</i> +0% [[encyclopedia FUEL_EFFICIENCY_TITLE]]
+
+GOOD_FUEL_EFFICIENCY_LABEL
+船体 <i>%2%</i> +100% [[encyclopedia FUEL_EFFICIENCY_TITLE]]
+
+GREAT_FUEL_EFFICIENCY_LABEL
+船体 <i>%2%</i> +300% [[encyclopedia FUEL_EFFICIENCY_TITLE]]
+
+HULL_DESC_BAD_FUEL_EFFICIENCY
+[[encyclopedia FUEL_EFFICIENCY_TITLE]]: 60%
+
+HULL_DESC_AVERAGE_FUEL_EFFICIENCY
+[[encyclopedia FUEL_EFFICIENCY_TITLE]]: 100%
+
+HULL_DESC_GOOD_FUEL_EFFICIENCY
+[[encyclopedia FUEL_EFFICIENCY_TITLE]]: 200%
+
+HULL_DESC_GREAT_FUEL_EFFICIENCY
+[[encyclopedia FUEL_EFFICIENCY_TITLE]]: 400%
+
+MAX_FUEL_LESS_THAN_ONE_DESC
+无法补给
+
+MAX_FUEL_LESS_THAN_ONE_LABEL
+燃料箱过小，无法补给（最大燃料 < 1.0）
+
+ARTISTIC
+艺术气质
+
+INDEPENDENT
+独立
+
+GASEOUS
+气态
+
+LOW_BRAINPOWER
+半意识
+
+AI_ALLIANCE_PROPOSAL_ACKNOWLEDGEMENTS_MILD_LIST
+'''很高兴再次收到你的消息。
+已收到你的信息。
+'''
+
+AI_ALLIANCE_PROPOSAL_ACKNOWLEDGEMENTS_HARSH_LIST
+'''如果你无法维持自己的野心，就不配得到我们的帮助。
+请另寻一个施舍者来汲取养分吧。
+'''
+
+AI_ALLIANCE_PROPOSAL_RESPONSES_YES_MILD_LIST
+'''我们的帝国将从相互支持与合作中获益。
+我们很荣幸能更紧密地携手共进，实现共同的成功。
+'''
+
+AI_ALLIANCE_PROPOSAL_RESPONSES_NO_MILD_LIST
+'''我们认为目前这种协议对双方并无益处。
+我们无法抽出协议所需资源。
+'''
+
+AI_ALLIANCE_PROPOSAL_RESPONSES_YES_HARSH_LIST
+'''我们勉强同意支持你徒劳的努力。
+或许我们会从延长你绝望挣扎的过程中获得乐趣。
+'''
+
+AI_ALLIANCE_PROPOSAL_RESPONSES_NO_HARSH_LIST
+'''我们绝不会与你分享资源！
+你完全不配获得这样的信任与支持。
+'''
+
+AI_FIRST_TURN_GREETING_MSG202
+离我们远点，我们也会离你远点！
+
+HOTKEY_MAP_GOVERNMENT
+切换政府窗口
+
+HOTKEY_AUTOCOMPLETE
+自动补全输入的单词
+
+SHIP_NAME_OTHER_GEO
+'''火山口
+地震
+间歇泉
+熔岩流
+巨石柱
+矿石块
+方尖碑
+岩画
+地震
+震颤
+瓦特纳冰川'''
+
+SHIP_NAME_MONTH_TIME
+'''复活节彩蛋
+永恒的九月
+三月十五
+四季
+红十月
+春假'''
+
+SHIP_NAME_FICTIONAL_MONSTERS
+'''贝奥武夫
+格莫加南德
+尼斯湖水怪
+'''
+
